@@ -1,1 +1,19 @@
 # AI_Homework
+
+Sokoban:
+#" : Wall
+
+@ : Player
+
+$ : Box
+
+. : Goal area
+
+* : Box on goal
+
++ : Player on goal
+
+: Floor (space)
+
+
+-First task: Modeling the problem
