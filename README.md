@@ -17,3 +17,5 @@ $ : Box
 
 
 -First task: Modeling the problem
+-Second task: A star solver (A*)
+-Third task: Heuristics

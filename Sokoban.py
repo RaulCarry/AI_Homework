@@ -5,6 +5,11 @@ class SokobanState:
         self.player = player
         self.boxes = boxes
 
+    def __hash__(self):
+        return hash((self.player, self.boxes))
+
+    def __eq__(self, other):
+        return self.player == other.player and self.boxes == other.boxes
 
 class SokobanLevel:
     
@@ -38,7 +43,7 @@ class SokobanLevel:
                     start_player = (x, y)
                     self.goals.add((x, y))
 
-        self.initial_state = SokobanState(start_player, start_boxes)
+        self.initial_state = SokobanState(start_player, frozenset(start_boxes))
 
     def print_state(self, state):
         output = []
@@ -92,7 +97,7 @@ class SokobanLevel:
                 new_boxes.remove(new_pos)
                 new_boxes.add(new_box_pos)
                 
-                new_state = SokobanState(new_pos, new_boxes)
+                new_state = SokobanState(new_pos, frozenset(new_boxes))
                 successors.append((move_name, new_state))
 
             else:
@@ -102,4 +107,7 @@ class SokobanLevel:
         return successors
 
     def is_goal(state, level): return state.boxes.issubset(level.goals)
+    
+    
+    
     
