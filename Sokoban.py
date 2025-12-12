@@ -77,7 +77,7 @@ class SokobanLevel:
         
         player_x, player_y = state.player
 
-        for move_name, (dx, dy) in MOVES.items():
+        for move_name, (dx, dy) in SokobanLevel.MOVES.items():
             new_x, new_y = player_x + dx, player_y + dy
             new_pos = (new_x, new_y)
 
