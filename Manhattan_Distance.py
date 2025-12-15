@@ -15,12 +15,5 @@ def heuristic(state, level):
     return total_distance
 
 
-def get_neighbors_wrapper(state):
-    return SokobanLevel.get_successors(state, level)
-
-def is_goal_wrapper(state):
-    return SokobanLevel.is_goal(state, level)
-
-def heuristic_wrapper(state):
-    return heuristic(state, level)
+    
 
