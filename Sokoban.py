@@ -44,6 +44,25 @@ class SokobanLevel:
                     self.goals.add((x, y))
 
         self.initial_state = SokobanState(start_player, frozenset(start_boxes))
+        
+        # PRE-COMPUTE DEADLOCK SQUARES 
+        self.deadlock_squares = set()
+        for x in range(self.width):
+            for y in range(self.height):
+                if (x, y) not in self.walls and (x, y) not in self.goals:
+                    if self.is_corner_deadlock(x, y):
+                        self.deadlock_squares.add((x, y))
+
+    def is_corner_deadlock(self, x, y):
+        walls = self.walls
+        up = (x, y - 1) in walls
+        down = (x, y + 1) in walls
+        left = (x - 1, y) in walls
+        right = (x + 1, y) in walls
+
+        if (up and left) or (up and right) or (down and left) or (down and right):
+            return True
+        return False
 
     def print_state(self, state):
         output = []
@@ -64,7 +83,6 @@ class SokobanLevel:
             output.append("".join(line))
         return "\n".join(output)
     
-    
     MOVES = {
         'U': (0, -1),
         'D': (0, 1),
@@ -74,23 +92,23 @@ class SokobanLevel:
 
     def get_successors(state, level):
         successors = []
-        
         player_x, player_y = state.player
 
         for move_name, (dx, dy) in SokobanLevel.MOVES.items():
             new_x, new_y = player_x + dx, player_y + dy
             new_pos = (new_x, new_y)
 
-
             if new_pos in level.walls:
                 continue
 
             if new_pos in state.boxes:
-                
                 new_box_x, new_box_y = new_x + dx, new_y + dy
                 new_box_pos = (new_box_x, new_box_y)
 
                 if new_box_pos in level.walls or new_box_pos in state.boxes:
+                    continue
+            
+                if new_box_pos in level.deadlock_squares:
                     continue
                 
                 new_boxes = set(state.boxes)
