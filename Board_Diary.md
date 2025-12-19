@@ -20,3 +20,4 @@ $ : Box
 -Second task: A star solver (A*)
 -Third task: Heuristics
 -Fourth task: Too slow/Deadlock problem, a better heuristic ?
+-Fifth task: tried to optimize but with poor results

@@ -1,7 +1,8 @@
 import time
 from Sokoban import SokobanLevel
 from Astar import Astar
-from Manhattan_Distance import heuristic
+import Real_Maze_Distance
+
 
 def parse_levels(filename):
     levels = []
@@ -18,45 +19,33 @@ def parse_levels(filename):
                 current_level_lines.append(line)
     return levels
 
+def run_astar(level, heuristic_func):
+    print(f"   [1] Running Weighted A* (Real Maze Distance)...")
+    
+    def get_neighbors(state): return SokobanLevel.get_successors(state, level)
+    def is_goal(state): return SokobanLevel.is_goal(state, level)
+    def h_func(state): return heuristic_func(state, level)
+
+    start = time.time()
+    path, nodes = Astar(level.initial_state, get_neighbors, is_goal, h_func, limit=20000000, weight=50)
+    end = time.time()
+    
+    if path:
+        print(f"      [SUCCESS] Time: {end-start:.4f}s | Nodes: {nodes} | Len: {len(path)}")
+    else:
+        print(f"      [FAILED] Time: {end-start:.4f}s | Nodes: {nodes}")
 
 def solve_level(level_index):
     levels = parse_levels('sokoban_levels.txt')
-    if level_index >= len(levels):
-        print(f"Level {level_index} not found.")
-        return
+    if level_index >= len(levels): return
 
-    level_string = levels[level_index]
-    print(f"--- Loading: {level_index + 1} ---")
-    
-    level = SokobanLevel(level_string)
+    level_str = levels[level_index]
+    print(f"\n=== SOLVING LEVEL {level_index + 1} ===")
+    level = SokobanLevel(level_str)
     print(level.print_state(level.initial_state))
-    print("\nPlaying it...")
+    print("-" * 30)
 
-    def get_neighbors_wrapper(state):
-        return SokobanLevel.get_successors(state, level)
-
-    def is_goal_wrapper(state):
-        return SokobanLevel.is_goal(state, level)
-
-    def heuristic_wrapper(state):
-        return heuristic(state, level)
-
-    start_time = time.time()
-    path, nodes_explored = Astar(
-        level.initial_state,
-        get_neighbors_wrapper,
-        is_goal_wrapper,
-        heuristic_wrapper
-    )
-    end_time = time.time()
-
-    if path:
-        print(f"\nSolution found in {end_time - start_time:.4f} seconds.")
-        print(f"Nodes explored: {nodes_explored}")
-        print(f"Path length: {len(path)}")
-        print(f"Path: {path}")
-    else:
-        print("\nNo solution found.")
+    run_astar(level, Real_Maze_Distance.heuristic)
 
 if __name__ == "__main__":
-    solve_level(0)
+    solve_level(1) 
