@@ -2,7 +2,9 @@ import time
 from Sokoban import SokobanLevel
 from Astar import Astar
 import Real_Maze_Distance
-
+import New_Real_Maze_Distance
+import Fast_Distance
+import Exact_Distance
 
 def parse_levels(filename):
     levels = []
@@ -20,14 +22,14 @@ def parse_levels(filename):
     return levels
 
 def run_astar(level, heuristic_func):
-    print(f"   [1] Running Weighted A* (Real Maze Distance)...")
+    print(f"   [1] Running Weighted {heuristic_func}...")
     
     def get_neighbors(state): return SokobanLevel.get_successors(state, level)
     def is_goal(state): return SokobanLevel.is_goal(state, level)
     def h_func(state): return heuristic_func(state, level)
 
     start = time.time()
-    path, nodes = Astar(level.initial_state, get_neighbors, is_goal, h_func, limit=20000000, weight=50)
+    path, nodes = Astar(level.initial_state, get_neighbors, is_goal, h_func, limit=20000000, weight=2.5)
     end = time.time()
     
     if path:
@@ -45,7 +47,7 @@ def solve_level(level_index):
     print(level.print_state(level.initial_state))
     print("-" * 30)
 
-    run_astar(level, Real_Maze_Distance.heuristic)
+    run_astar(level, Exact_Distance.heuristic)
 
 if __name__ == "__main__":
     solve_level(1) 

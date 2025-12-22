@@ -28,6 +28,7 @@ def compute_distance_map(level):
     return distances
 
 def heuristic(state, level):
+    #Lazy-load the distance map for this specific level
     if level not in _distance_cache:
         _distance_cache[level] = compute_distance_map(level)
     
