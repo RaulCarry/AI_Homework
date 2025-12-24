@@ -5,6 +5,7 @@ import Real_Maze_Distance
 import New_Real_Maze_Distance
 import Fast_Distance
 import Exact_Distance
+import Satificing
 
 def parse_levels(filename):
     levels = []
@@ -29,7 +30,7 @@ def run_astar(level, heuristic_func):
     def h_func(state): return heuristic_func(state, level)
 
     start = time.time()
-    path, nodes = Astar(level.initial_state, get_neighbors, is_goal, h_func, limit=20000000, weight=2.5)
+    path, nodes = Astar(level.initial_state, get_neighbors, is_goal, h_func, limit=20000000, weight=3.0)
     end = time.time()
     
     if path:
@@ -47,7 +48,7 @@ def solve_level(level_index):
     print(level.print_state(level.initial_state))
     print("-" * 30)
 
-    run_astar(level, Exact_Distance.heuristic)
+    run_astar(level, Satificing.heuristic)
 
 if __name__ == "__main__":
     solve_level(1) 
