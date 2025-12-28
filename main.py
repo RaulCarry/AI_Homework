@@ -12,6 +12,7 @@ from pddl.PDDL_Generator import PDDLGenerator
 
 level_number=1
 PLANNER_PATH = "fast-downward/fast-downward.py"
+PLANNER_PATH2= "./lama-first"
 DOMAIN_PATH = "pddl/domain.pddl"
 
 def parse_levels(filename):
@@ -45,7 +46,7 @@ def run_astar(level, heuristic_func):
     else:
         print(f"      [FAILED] Time: {end-start:.4f}s | Nodes: {nodes}")
 
-def run_fast_downward(domain_file, problem_file, time_limit=60):
+def run_fast_downward(domain_file, problem_file, time_limit=300):
     print(f"   [Planner] Running Fast Downward on {problem_file}...")
 
     if not os.path.exists(domain_file):
@@ -54,10 +55,13 @@ def run_fast_downward(domain_file, problem_file, time_limit=60):
 
     cmd = [
         PLANNER_PATH,
-        "--alias", "seq-opt-lmcut", 
+        
         "--overall-time-limit", str(time_limit),
+
         domain_file,
-        problem_file
+        problem_file,
+        
+        "--search", "lazy_greedy([ff()], preferred=[ff()])"
     ]
 
     start_time = time.time()
@@ -95,10 +99,50 @@ def run_fast_downward(domain_file, problem_file, time_limit=60):
         print(f"      [ERROR] Could not find planner at: {PLANNER_PATH}")
         return None, 0
     
-    
+def run_lama_first(domain_file, problem_file, time_limit=500):
+    print(f"   [Planner] Running {PLANNER_PATH2} on {problem_file}...")
+
+    cmd = [PLANNER_PATH2, domain_file, problem_file]
+
+    start_time = time.time()
+    try:
+        result = subprocess.run(
+            cmd, 
+            stdout=subprocess.PIPE, 
+            stderr=subprocess.PIPE,
+            text=True,
+            timeout=time_limit
+        )
+        duration = time.time() - start_time
+        
+        plan_files = [f for f in os.listdir('.') if f.startswith('sas_plan') and not f.endswith('.pddl')]
+        
+        if plan_files:
+            plan_files.sort()
+            best_plan_file = plan_files[-1]
+            
+            with open(best_plan_file, "r") as f:
+                plan_lines = f.readlines()
+            
+            for f in plan_files:
+                os.remove(f)
+
+            plan = [line.strip() for line in plan_lines if not line.startswith(";")]
+            print(f"      [SUCCESS] Time: {duration:.4f}s | Plan Length: {len(plan)}")
+            return plan, duration
+        else:
+            print(f"      [FAILED] Planner finished but no 'sas_plan' found.")
+            return None, duration
+
+    except subprocess.TimeoutExpired:
+        print(f"      [FAILED] Planner timed out after {time_limit} seconds.")
+        return None, time_limit
+    except FileNotFoundError:
+        print(f"      [ERROR] Command '{PLANNER_PATH2}' not found.")
+        return None, 0
     
 def solve_level(level_index):
-    levels = parse_levels('sokoban_levels.txt')
+    levels = parse_levels('ez_level.txt')
     if level_index >= len(levels): return
 
     level_str = levels[level_index]
@@ -111,7 +155,7 @@ def solve_level(level_index):
     pddl_gen.write_to_file(f"problem_{level_number}.pddl")
     print("PDDL generated successfully.")
 
-    run_fast_downward(f"domain.pddl", f"problem_{level_number}.pddl")
+    run_lama_first(f"domain.pddl", f"problem_{level_number}.pddl")
     
     run_astar(level, Satificing.heuristic)
 
