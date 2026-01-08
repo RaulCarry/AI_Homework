@@ -1,0 +1,882 @@
+Algorithm,Level,Status,Time (s),Metric Type,Metric Value
+A* (Manhattan),Level 0,Memory,0.0000,Max Stored Nodes,3
+A* (Manhattan),Level 0,Branching,0.0000,Avg Branching,0.5
+A* (Manhattan),Level 0,Branching,0.0000,Max Branching,1
+A* (Manhattan),Level 0,SUCCESS,0.0000,Nodes Expanded,2
+A* (Manhattan),Level 0,SUCCESS,0.0000,Solution Length,1
+A* (Real Maze),Level 0,Memory,0.0000,Max Stored Nodes,3
+A* (Real Maze),Level 0,Branching,0.0000,Avg Branching,0.5
+A* (Real Maze),Level 0,Branching,0.0000,Max Branching,1
+A* (Real Maze),Level 0,SUCCESS,0.0000,Nodes Expanded,2
+A* (Real Maze),Level 0,SUCCESS,0.0000,Solution Length,1
+A* (New Real Maze),Level 0,Memory,0.0001,Max Stored Nodes,3
+A* (New Real Maze),Level 0,Branching,0.0001,Avg Branching,0.5
+A* (New Real Maze),Level 0,Branching,0.0001,Max Branching,1
+A* (New Real Maze),Level 0,SUCCESS,0.0001,Nodes Expanded,2
+A* (New Real Maze),Level 0,SUCCESS,0.0001,Solution Length,1
+A* (Hungarian),Level 0,Memory,0.0001,Max Stored Nodes,3
+A* (Hungarian),Level 0,Branching,0.0001,Avg Branching,0.5
+A* (Hungarian),Level 0,Branching,0.0001,Max Branching,1
+A* (Hungarian),Level 0,SUCCESS,0.0001,Nodes Expanded,2
+A* (Hungarian),Level 0,SUCCESS,0.0001,Solution Length,1
+A* (Fast Distance),Level 0,Memory,0.0001,Max Stored Nodes,3
+A* (Fast Distance),Level 0,Branching,0.0001,Avg Branching,0.5
+A* (Fast Distance),Level 0,Branching,0.0001,Max Branching,1
+A* (Fast Distance),Level 0,SUCCESS,0.0001,Nodes Expanded,2
+A* (Fast Distance),Level 0,SUCCESS,0.0001,Solution Length,1
+A* (Exact Distance),Level 0,Memory,0.0001,Max Stored Nodes,3
+A* (Exact Distance),Level 0,Branching,0.0001,Avg Branching,0.5
+A* (Exact Distance),Level 0,Branching,0.0001,Max Branching,1
+A* (Exact Distance),Level 0,SUCCESS,0.0001,Nodes Expanded,2
+A* (Exact Distance),Level 0,SUCCESS,0.0001,Solution Length,1
+A* (Satisficing),Level 0,Memory,0.0000,Max Stored Nodes,3
+A* (Satisficing),Level 0,Branching,0.0000,Avg Branching,0.5
+A* (Satisficing),Level 0,Branching,0.0000,Max Branching,1
+A* (Satisficing),Level 0,SUCCESS,0.0000,Nodes Expanded,2
+A* (Satisficing),Level 0,SUCCESS,0.0000,Solution Length,1
+Fast Downward,Level 0,Metrics,0.0954,Nodes Expanded,3
+Fast Downward,Level 0,Branching,0.0954,Avg Branching,1.6666666666666667
+Fast Downward,Level 0,SUCCESS,0.0954,Solution Length,3
+LAMA First,Level 0,Metrics,0.5333,Nodes Expanded,3
+LAMA First,Level 0,Branching,0.5333,Avg Branching,1.6666666666666667
+LAMA First,Level 0,SUCCESS,0.5333,Solution Length,3
+A* (Manhattan),Level 1,Memory,0.0001,Max Stored Nodes,10
+A* (Manhattan),Level 1,Branching,0.0001,Avg Branching,1.6666666666666667
+A* (Manhattan),Level 1,Branching,0.0001,Max Branching,3
+A* (Manhattan),Level 1,SUCCESS,0.0001,Nodes Expanded,3
+A* (Manhattan),Level 1,SUCCESS,0.0001,Solution Length,2
+A* (Real Maze),Level 1,Memory,0.0001,Max Stored Nodes,10
+A* (Real Maze),Level 1,Branching,0.0001,Avg Branching,1.6666666666666667
+A* (Real Maze),Level 1,Branching,0.0001,Max Branching,3
+A* (Real Maze),Level 1,SUCCESS,0.0001,Nodes Expanded,3
+A* (Real Maze),Level 1,SUCCESS,0.0001,Solution Length,2
+A* (New Real Maze),Level 1,Memory,0.0001,Max Stored Nodes,10
+A* (New Real Maze),Level 1,Branching,0.0001,Avg Branching,1.6666666666666667
+A* (New Real Maze),Level 1,Branching,0.0001,Max Branching,3
+A* (New Real Maze),Level 1,SUCCESS,0.0001,Nodes Expanded,3
+A* (New Real Maze),Level 1,SUCCESS,0.0001,Solution Length,2
+A* (Hungarian),Level 1,Memory,0.0001,Max Stored Nodes,10
+A* (Hungarian),Level 1,Branching,0.0001,Avg Branching,1.6666666666666667
+A* (Hungarian),Level 1,Branching,0.0001,Max Branching,3
+A* (Hungarian),Level 1,SUCCESS,0.0001,Nodes Expanded,3
+A* (Hungarian),Level 1,SUCCESS,0.0001,Solution Length,2
+A* (Fast Distance),Level 1,Memory,0.0001,Max Stored Nodes,10
+A* (Fast Distance),Level 1,Branching,0.0001,Avg Branching,1.6666666666666667
+A* (Fast Distance),Level 1,Branching,0.0001,Max Branching,3
+A* (Fast Distance),Level 1,SUCCESS,0.0001,Nodes Expanded,3
+A* (Fast Distance),Level 1,SUCCESS,0.0001,Solution Length,2
+A* (Exact Distance),Level 1,Memory,0.0002,Max Stored Nodes,10
+A* (Exact Distance),Level 1,Branching,0.0002,Avg Branching,1.6666666666666667
+A* (Exact Distance),Level 1,Branching,0.0002,Max Branching,3
+A* (Exact Distance),Level 1,SUCCESS,0.0002,Nodes Expanded,3
+A* (Exact Distance),Level 1,SUCCESS,0.0002,Solution Length,2
+A* (Satisficing),Level 1,Memory,0.0002,Max Stored Nodes,10
+A* (Satisficing),Level 1,Branching,0.0002,Avg Branching,1.6666666666666667
+A* (Satisficing),Level 1,Branching,0.0002,Max Branching,3
+A* (Satisficing),Level 1,SUCCESS,0.0002,Nodes Expanded,3
+A* (Satisficing),Level 1,SUCCESS,0.0002,Solution Length,2
+Fast Downward,Level 1,Metrics,0.0968,Nodes Expanded,12
+Fast Downward,Level 1,Branching,0.0968,Avg Branching,3.0833333333333335
+Fast Downward,Level 1,SUCCESS,0.0968,Solution Length,6
+LAMA First,Level 1,Metrics,0.5258,Nodes Expanded,19
+LAMA First,Level 1,Branching,0.5258,Avg Branching,2.9473684210526314
+LAMA First,Level 1,SUCCESS,0.5258,Solution Length,14
+A* (Manhattan),Level 2,Memory,0.0002,Max Stored Nodes,18
+A* (Manhattan),Level 2,Branching,0.0002,Avg Branching,3.3333333333333335
+A* (Manhattan),Level 2,Branching,0.0002,Max Branching,5
+A* (Manhattan),Level 2,SUCCESS,0.0002,Nodes Expanded,3
+A* (Manhattan),Level 2,SUCCESS,0.0002,Solution Length,2
+A* (Real Maze),Level 2,Memory,0.0003,Max Stored Nodes,18
+A* (Real Maze),Level 2,Branching,0.0003,Avg Branching,3.3333333333333335
+A* (Real Maze),Level 2,Branching,0.0003,Max Branching,5
+A* (Real Maze),Level 2,SUCCESS,0.0003,Nodes Expanded,3
+A* (Real Maze),Level 2,SUCCESS,0.0003,Solution Length,2
+A* (New Real Maze),Level 2,Memory,0.0003,Max Stored Nodes,18
+A* (New Real Maze),Level 2,Branching,0.0003,Avg Branching,3.3333333333333335
+A* (New Real Maze),Level 2,Branching,0.0003,Max Branching,5
+A* (New Real Maze),Level 2,SUCCESS,0.0003,Nodes Expanded,3
+A* (New Real Maze),Level 2,SUCCESS,0.0003,Solution Length,2
+A* (Hungarian),Level 2,Memory,0.0003,Max Stored Nodes,18
+A* (Hungarian),Level 2,Branching,0.0003,Avg Branching,3.3333333333333335
+A* (Hungarian),Level 2,Branching,0.0003,Max Branching,5
+A* (Hungarian),Level 2,SUCCESS,0.0003,Nodes Expanded,3
+A* (Hungarian),Level 2,SUCCESS,0.0003,Solution Length,2
+A* (Fast Distance),Level 2,Memory,0.0002,Max Stored Nodes,18
+A* (Fast Distance),Level 2,Branching,0.0002,Avg Branching,3.3333333333333335
+A* (Fast Distance),Level 2,Branching,0.0002,Max Branching,5
+A* (Fast Distance),Level 2,SUCCESS,0.0002,Nodes Expanded,3
+A* (Fast Distance),Level 2,SUCCESS,0.0002,Solution Length,2
+A* (Exact Distance),Level 2,Memory,0.0002,Max Stored Nodes,18
+A* (Exact Distance),Level 2,Branching,0.0002,Avg Branching,3.3333333333333335
+A* (Exact Distance),Level 2,Branching,0.0002,Max Branching,5
+A* (Exact Distance),Level 2,SUCCESS,0.0002,Nodes Expanded,3
+A* (Exact Distance),Level 2,SUCCESS,0.0002,Solution Length,2
+A* (Satisficing),Level 2,Memory,0.0003,Max Stored Nodes,18
+A* (Satisficing),Level 2,Branching,0.0003,Avg Branching,3.3333333333333335
+A* (Satisficing),Level 2,Branching,0.0003,Max Branching,5
+A* (Satisficing),Level 2,SUCCESS,0.0003,Nodes Expanded,3
+A* (Satisficing),Level 2,SUCCESS,0.0003,Solution Length,2
+Fast Downward,Level 2,Metrics,0.1126,Nodes Expanded,13
+Fast Downward,Level 2,Branching,0.1126,Avg Branching,3.230769230769231
+Fast Downward,Level 2,SUCCESS,0.1126,Solution Length,9
+LAMA First,Level 2,Metrics,0.5136,Nodes Expanded,15
+LAMA First,Level 2,Branching,0.5136,Avg Branching,3.3333333333333335
+LAMA First,Level 2,SUCCESS,0.5136,Solution Length,9
+A* (Manhattan),Level 3,Memory,0.0004,Max Stored Nodes,39
+A* (Manhattan),Level 3,Branching,0.0004,Avg Branching,5.25
+A* (Manhattan),Level 3,Branching,0.0004,Max Branching,8
+A* (Manhattan),Level 3,SUCCESS,0.0004,Nodes Expanded,4
+A* (Manhattan),Level 3,SUCCESS,0.0004,Solution Length,3
+A* (Real Maze),Level 3,Memory,0.0004,Max Stored Nodes,39
+A* (Real Maze),Level 3,Branching,0.0004,Avg Branching,5.25
+A* (Real Maze),Level 3,Branching,0.0004,Max Branching,8
+A* (Real Maze),Level 3,SUCCESS,0.0004,Nodes Expanded,4
+A* (Real Maze),Level 3,SUCCESS,0.0004,Solution Length,3
+A* (New Real Maze),Level 3,Memory,0.0006,Max Stored Nodes,39
+A* (New Real Maze),Level 3,Branching,0.0006,Avg Branching,5.25
+A* (New Real Maze),Level 3,Branching,0.0006,Max Branching,8
+A* (New Real Maze),Level 3,SUCCESS,0.0006,Nodes Expanded,4
+A* (New Real Maze),Level 3,SUCCESS,0.0006,Solution Length,3
+A* (Hungarian),Level 3,Memory,0.0006,Max Stored Nodes,39
+A* (Hungarian),Level 3,Branching,0.0006,Avg Branching,5.25
+A* (Hungarian),Level 3,Branching,0.0006,Max Branching,8
+A* (Hungarian),Level 3,SUCCESS,0.0006,Nodes Expanded,4
+A* (Hungarian),Level 3,SUCCESS,0.0006,Solution Length,3
+A* (Fast Distance),Level 3,Memory,0.0005,Max Stored Nodes,39
+A* (Fast Distance),Level 3,Branching,0.0005,Avg Branching,5.25
+A* (Fast Distance),Level 3,Branching,0.0005,Max Branching,8
+A* (Fast Distance),Level 3,SUCCESS,0.0005,Nodes Expanded,4
+A* (Fast Distance),Level 3,SUCCESS,0.0005,Solution Length,3
+A* (Exact Distance),Level 3,Memory,0.0007,Max Stored Nodes,39
+A* (Exact Distance),Level 3,Branching,0.0007,Avg Branching,5.25
+A* (Exact Distance),Level 3,Branching,0.0007,Max Branching,8
+A* (Exact Distance),Level 3,SUCCESS,0.0007,Nodes Expanded,4
+A* (Exact Distance),Level 3,SUCCESS,0.0007,Solution Length,3
+A* (Satisficing),Level 3,Memory,0.0005,Max Stored Nodes,39
+A* (Satisficing),Level 3,Branching,0.0005,Avg Branching,5.25
+A* (Satisficing),Level 3,Branching,0.0005,Max Branching,8
+A* (Satisficing),Level 3,SUCCESS,0.0005,Nodes Expanded,4
+A* (Satisficing),Level 3,SUCCESS,0.0005,Solution Length,3
+Fast Downward,Level 3,Metrics,0.1222,Nodes Expanded,15
+Fast Downward,Level 3,Branching,0.1222,Avg Branching,3.466666666666667
+Fast Downward,Level 3,SUCCESS,0.1222,Solution Length,9
+LAMA First,Level 3,Metrics,0.5443,Nodes Expanded,16
+LAMA First,Level 3,Branching,0.5443,Avg Branching,3.4375
+LAMA First,Level 3,SUCCESS,0.5443,Solution Length,9
+A* (Manhattan),Level 4,Memory,0.0044,Max Stored Nodes,161
+A* (Manhattan),Level 4,Branching,0.0044,Avg Branching,5.75
+A* (Manhattan),Level 4,Branching,0.0044,Max Branching,10
+A* (Manhattan),Level 4,SUCCESS,0.0044,Nodes Expanded,16
+A* (Manhattan),Level 4,SUCCESS,0.0044,Solution Length,4
+A* (Real Maze),Level 4,Memory,0.0025,Max Stored Nodes,161
+A* (Real Maze),Level 4,Branching,0.0025,Avg Branching,5.75
+A* (Real Maze),Level 4,Branching,0.0025,Max Branching,10
+A* (Real Maze),Level 4,SUCCESS,0.0025,Nodes Expanded,16
+A* (Real Maze),Level 4,SUCCESS,0.0025,Solution Length,4
+A* (New Real Maze),Level 4,Memory,0.0023,Max Stored Nodes,100
+A* (New Real Maze),Level 4,Branching,0.0023,Avg Branching,6.222222222222222
+A* (New Real Maze),Level 4,Branching,0.0023,Max Branching,10
+A* (New Real Maze),Level 4,SUCCESS,0.0023,Nodes Expanded,9
+A* (New Real Maze),Level 4,SUCCESS,0.0023,Solution Length,4
+A* (Hungarian),Level 4,Memory,0.0051,Max Stored Nodes,100
+A* (Hungarian),Level 4,Branching,0.0051,Avg Branching,6.222222222222222
+A* (Hungarian),Level 4,Branching,0.0051,Max Branching,10
+A* (Hungarian),Level 4,SUCCESS,0.0051,Nodes Expanded,9
+A* (Hungarian),Level 4,SUCCESS,0.0051,Solution Length,4
+A* (Fast Distance),Level 4,Memory,0.0053,Max Stored Nodes,161
+A* (Fast Distance),Level 4,Branching,0.0053,Avg Branching,5.75
+A* (Fast Distance),Level 4,Branching,0.0053,Max Branching,10
+A* (Fast Distance),Level 4,SUCCESS,0.0053,Nodes Expanded,16
+A* (Fast Distance),Level 4,SUCCESS,0.0053,Solution Length,4
+A* (Exact Distance),Level 4,Memory,0.0028,Max Stored Nodes,76
+A* (Exact Distance),Level 4,Branching,0.0028,Avg Branching,6.0
+A* (Exact Distance),Level 4,Branching,0.0028,Max Branching,10
+A* (Exact Distance),Level 4,SUCCESS,0.0028,Nodes Expanded,7
+A* (Exact Distance),Level 4,SUCCESS,0.0028,Solution Length,4
+A* (Satisficing),Level 4,Memory,0.0030,Max Stored Nodes,76
+A* (Satisficing),Level 4,Branching,0.0030,Avg Branching,6.0
+A* (Satisficing),Level 4,Branching,0.0030,Max Branching,10
+A* (Satisficing),Level 4,SUCCESS,0.0030,Nodes Expanded,7
+A* (Satisficing),Level 4,SUCCESS,0.0030,Solution Length,4
+Fast Downward,Level 4,Metrics,0.1766,Nodes Expanded,6406
+Fast Downward,Level 4,Branching,0.1766,Avg Branching,3.4414611301904463
+Fast Downward,Level 4,SUCCESS,0.1766,Solution Length,26
+LAMA First,Level 4,Metrics,0.6061,Nodes Expanded,14093
+LAMA First,Level 4,Branching,0.6061,Avg Branching,3.4321294259561483
+LAMA First,Level 4,SUCCESS,0.6061,Solution Length,26
+A* (Manhattan),Level 5,Memory,0.0316,Max Stored Nodes,673
+A* (Manhattan),Level 5,Branching,0.0316,Avg Branching,8.442857142857143
+A* (Manhattan),Level 5,Branching,0.0316,Max Branching,15
+A* (Manhattan),Level 5,SUCCESS,0.0316,Nodes Expanded,70
+A* (Manhattan),Level 5,SUCCESS,0.0316,Solution Length,14
+A* (Real Maze),Level 5,Memory,0.0235,Max Stored Nodes,673
+A* (Real Maze),Level 5,Branching,0.0235,Avg Branching,8.442857142857143
+A* (Real Maze),Level 5,Branching,0.0235,Max Branching,15
+A* (Real Maze),Level 5,SUCCESS,0.0235,Nodes Expanded,70
+A* (Real Maze),Level 5,SUCCESS,0.0235,Solution Length,14
+A* (New Real Maze),Level 5,Memory,0.0139,Max Stored Nodes,207
+A* (New Real Maze),Level 5,Branching,0.0139,Avg Branching,7.9375
+A* (New Real Maze),Level 5,Branching,0.0139,Max Branching,11
+A* (New Real Maze),Level 5,SUCCESS,0.0139,Nodes Expanded,16
+A* (New Real Maze),Level 5,SUCCESS,0.0139,Solution Length,12
+A* (Hungarian),Level 5,Memory,0.0077,Max Stored Nodes,207
+A* (Hungarian),Level 5,Branching,0.0077,Avg Branching,7.9375
+A* (Hungarian),Level 5,Branching,0.0077,Max Branching,11
+A* (Hungarian),Level 5,SUCCESS,0.0077,Nodes Expanded,16
+A* (Hungarian),Level 5,SUCCESS,0.0077,Solution Length,12
+A* (Fast Distance),Level 5,Memory,0.0231,Max Stored Nodes,673
+A* (Fast Distance),Level 5,Branching,0.0231,Avg Branching,8.442857142857143
+A* (Fast Distance),Level 5,Branching,0.0231,Max Branching,15
+A* (Fast Distance),Level 5,SUCCESS,0.0231,Nodes Expanded,70
+A* (Fast Distance),Level 5,SUCCESS,0.0231,Solution Length,14
+A* (Exact Distance),Level 5,Memory,0.0070,Max Stored Nodes,207
+A* (Exact Distance),Level 5,Branching,0.0070,Avg Branching,7.9375
+A* (Exact Distance),Level 5,Branching,0.0070,Max Branching,11
+A* (Exact Distance),Level 5,SUCCESS,0.0070,Nodes Expanded,16
+A* (Exact Distance),Level 5,SUCCESS,0.0070,Solution Length,12
+A* (Satisficing),Level 5,Memory,0.0048,Max Stored Nodes,190
+A* (Satisficing),Level 5,Branching,0.0048,Avg Branching,8.76923076923077
+A* (Satisficing),Level 5,Branching,0.0048,Max Branching,13
+A* (Satisficing),Level 5,SUCCESS,0.0048,Nodes Expanded,13
+A* (Satisficing),Level 5,SUCCESS,0.0048,Solution Length,12
+Fast Downward,Level 5,Metrics,0.3736,Nodes Expanded,24790
+Fast Downward,Level 5,Branching,0.3736,Avg Branching,3.4974183138362243
+Fast Downward,Level 5,SUCCESS,0.3736,Solution Length,33
+LAMA First,Level 5,Metrics,0.5916,Nodes Expanded,3319
+LAMA First,Level 5,Branching,0.5916,Avg Branching,3.602289846339259
+LAMA First,Level 5,SUCCESS,0.5916,Solution Length,62
+A* (Manhattan),Level 6,Memory,0.0027,Max Stored Nodes,136
+A* (Manhattan),Level 6,Branching,0.0027,Avg Branching,10.714285714285714
+A* (Manhattan),Level 6,Branching,0.0027,Max Branching,14
+A* (Manhattan),Level 6,SUCCESS,0.0027,Nodes Expanded,7
+A* (Manhattan),Level 6,SUCCESS,0.0027,Solution Length,4
+A* (Real Maze),Level 6,Memory,0.0027,Max Stored Nodes,136
+A* (Real Maze),Level 6,Branching,0.0027,Avg Branching,10.714285714285714
+A* (Real Maze),Level 6,Branching,0.0027,Max Branching,14
+A* (Real Maze),Level 6,SUCCESS,0.0027,Nodes Expanded,7
+A* (Real Maze),Level 6,SUCCESS,0.0027,Solution Length,4
+A* (New Real Maze),Level 6,Memory,0.0028,Max Stored Nodes,96
+A* (New Real Maze),Level 6,Branching,0.0028,Avg Branching,10.4
+A* (New Real Maze),Level 6,Branching,0.0028,Max Branching,14
+A* (New Real Maze),Level 6,SUCCESS,0.0028,Nodes Expanded,5
+A* (New Real Maze),Level 6,SUCCESS,0.0028,Solution Length,4
+A* (Hungarian),Level 6,Memory,0.0023,Max Stored Nodes,96
+A* (Hungarian),Level 6,Branching,0.0023,Avg Branching,10.4
+A* (Hungarian),Level 6,Branching,0.0023,Max Branching,14
+A* (Hungarian),Level 6,SUCCESS,0.0023,Nodes Expanded,5
+A* (Hungarian),Level 6,SUCCESS,0.0023,Solution Length,4
+A* (Fast Distance),Level 6,Memory,0.0082,Max Stored Nodes,136
+A* (Fast Distance),Level 6,Branching,0.0082,Avg Branching,10.714285714285714
+A* (Fast Distance),Level 6,Branching,0.0082,Max Branching,14
+A* (Fast Distance),Level 6,SUCCESS,0.0082,Nodes Expanded,7
+A* (Fast Distance),Level 6,SUCCESS,0.0082,Solution Length,4
+A* (Exact Distance),Level 6,Memory,0.0073,Max Stored Nodes,90
+A* (Exact Distance),Level 6,Branching,0.0073,Avg Branching,9.8
+A* (Exact Distance),Level 6,Branching,0.0073,Max Branching,13
+A* (Exact Distance),Level 6,SUCCESS,0.0073,Nodes Expanded,5
+A* (Exact Distance),Level 6,SUCCESS,0.0073,Solution Length,4
+A* (Satisficing),Level 6,Memory,0.0064,Max Stored Nodes,90
+A* (Satisficing),Level 6,Branching,0.0064,Avg Branching,9.8
+A* (Satisficing),Level 6,Branching,0.0064,Max Branching,13
+A* (Satisficing),Level 6,SUCCESS,0.0064,Nodes Expanded,5
+A* (Satisficing),Level 6,SUCCESS,0.0064,Solution Length,4
+Fast Downward,Level 6,Metrics,0.1218,Nodes Expanded,63
+Fast Downward,Level 6,Branching,0.1218,Avg Branching,3.5396825396825395
+Fast Downward,Level 6,SUCCESS,0.1218,Solution Length,25
+LAMA First,Level 6,Metrics,0.5129,Nodes Expanded,65
+LAMA First,Level 6,Branching,0.5129,Avg Branching,3.5846153846153848
+LAMA First,Level 6,SUCCESS,0.5129,Solution Length,25
+A* (Manhattan),Level 7,Memory,0.0448,Max Stored Nodes,1497
+A* (Manhattan),Level 7,Branching,0.0448,Avg Branching,10.959183673469388
+A* (Manhattan),Level 7,Branching,0.0448,Max Branching,17
+A* (Manhattan),Level 7,SUCCESS,0.0448,Nodes Expanded,98
+A* (Manhattan),Level 7,SUCCESS,0.0448,Solution Length,24
+A* (Real Maze),Level 7,Memory,0.0372,Max Stored Nodes,1497
+A* (Real Maze),Level 7,Branching,0.0372,Avg Branching,10.959183673469388
+A* (Real Maze),Level 7,Branching,0.0372,Max Branching,17
+A* (Real Maze),Level 7,SUCCESS,0.0372,Nodes Expanded,98
+A* (Real Maze),Level 7,SUCCESS,0.0372,Solution Length,24
+A* (New Real Maze),Level 7,Memory,0.0793,Max Stored Nodes,945
+A* (New Real Maze),Level 7,Branching,0.0793,Avg Branching,8.597560975609756
+A* (New Real Maze),Level 7,Branching,0.0793,Max Branching,17
+A* (New Real Maze),Level 7,SUCCESS,0.0793,Nodes Expanded,82
+A* (New Real Maze),Level 7,SUCCESS,0.0793,Solution Length,26
+A* (Hungarian),Level 7,Memory,0.0378,Max Stored Nodes,945
+A* (Hungarian),Level 7,Branching,0.0378,Avg Branching,8.597560975609756
+A* (Hungarian),Level 7,Branching,0.0378,Max Branching,17
+A* (Hungarian),Level 7,SUCCESS,0.0378,Nodes Expanded,82
+A* (Hungarian),Level 7,SUCCESS,0.0378,Solution Length,26
+A* (Fast Distance),Level 7,Memory,0.0373,Max Stored Nodes,1497
+A* (Fast Distance),Level 7,Branching,0.0373,Avg Branching,10.959183673469388
+A* (Fast Distance),Level 7,Branching,0.0373,Max Branching,17
+A* (Fast Distance),Level 7,SUCCESS,0.0373,Nodes Expanded,98
+A* (Fast Distance),Level 7,SUCCESS,0.0373,Solution Length,24
+A* (Exact Distance),Level 7,Memory,0.0288,Max Stored Nodes,904
+A* (Exact Distance),Level 7,Branching,0.0288,Avg Branching,8.586666666666666
+A* (Exact Distance),Level 7,Branching,0.0288,Max Branching,17
+A* (Exact Distance),Level 7,SUCCESS,0.0288,Nodes Expanded,75
+A* (Exact Distance),Level 7,SUCCESS,0.0288,Solution Length,26
+A* (Satisficing),Level 7,Memory,0.0199,Max Stored Nodes,650
+A* (Satisficing),Level 7,Branching,0.0199,Avg Branching,13.518518518518519
+A* (Satisficing),Level 7,Branching,0.0199,Max Branching,19
+A* (Satisficing),Level 7,SUCCESS,0.0199,Nodes Expanded,27
+A* (Satisficing),Level 7,SUCCESS,0.0199,Solution Length,24
+Fast Downward,Level 7,Metrics,59.1291,Nodes Expanded,0
+Fast Downward,Level 7,Branching,59.1291,Avg Branching,0
+Fast Downward,Level 7,FAILED,59.1291,Solution Length,0
+LAMA First,Level 7,Metrics,1.6988,Nodes Expanded,119988
+LAMA First,Level 7,Branching,1.6988,Avg Branching,3.506884021735507
+LAMA First,Level 7,SUCCESS,1.6988,Solution Length,89
+A* (Manhattan),Level 8,Memory,0.0005,Max Stored Nodes,47
+A* (Manhattan),Level 8,Branching,0.0005,Avg Branching,6.0
+A* (Manhattan),Level 8,Branching,0.0005,Max Branching,9
+A* (Manhattan),Level 8,SUCCESS,0.0005,Nodes Expanded,4
+A* (Manhattan),Level 8,SUCCESS,0.0005,Solution Length,3
+A* (Real Maze),Level 8,Memory,0.0005,Max Stored Nodes,47
+A* (Real Maze),Level 8,Branching,0.0005,Avg Branching,6.0
+A* (Real Maze),Level 8,Branching,0.0005,Max Branching,9
+A* (Real Maze),Level 8,SUCCESS,0.0005,Nodes Expanded,4
+A* (Real Maze),Level 8,SUCCESS,0.0005,Solution Length,3
+A* (New Real Maze),Level 8,Memory,0.0007,Max Stored Nodes,47
+A* (New Real Maze),Level 8,Branching,0.0007,Avg Branching,6.0
+A* (New Real Maze),Level 8,Branching,0.0007,Max Branching,9
+A* (New Real Maze),Level 8,SUCCESS,0.0007,Nodes Expanded,4
+A* (New Real Maze),Level 8,SUCCESS,0.0007,Solution Length,3
+A* (Hungarian),Level 8,Memory,0.0013,Max Stored Nodes,47
+A* (Hungarian),Level 8,Branching,0.0013,Avg Branching,6.0
+A* (Hungarian),Level 8,Branching,0.0013,Max Branching,9
+A* (Hungarian),Level 8,SUCCESS,0.0013,Nodes Expanded,4
+A* (Hungarian),Level 8,SUCCESS,0.0013,Solution Length,3
+A* (Fast Distance),Level 8,Memory,0.0008,Max Stored Nodes,47
+A* (Fast Distance),Level 8,Branching,0.0008,Avg Branching,6.0
+A* (Fast Distance),Level 8,Branching,0.0008,Max Branching,9
+A* (Fast Distance),Level 8,SUCCESS,0.0008,Nodes Expanded,4
+A* (Fast Distance),Level 8,SUCCESS,0.0008,Solution Length,3
+A* (Exact Distance),Level 8,Memory,0.0006,Max Stored Nodes,47
+A* (Exact Distance),Level 8,Branching,0.0006,Avg Branching,6.0
+A* (Exact Distance),Level 8,Branching,0.0006,Max Branching,9
+A* (Exact Distance),Level 8,SUCCESS,0.0006,Nodes Expanded,4
+A* (Exact Distance),Level 8,SUCCESS,0.0006,Solution Length,3
+A* (Satisficing),Level 8,Memory,0.0006,Max Stored Nodes,47
+A* (Satisficing),Level 8,Branching,0.0006,Avg Branching,6.0
+A* (Satisficing),Level 8,Branching,0.0006,Max Branching,9
+A* (Satisficing),Level 8,SUCCESS,0.0006,Nodes Expanded,4
+A* (Satisficing),Level 8,SUCCESS,0.0006,Solution Length,3
+Fast Downward,Level 8,Metrics,0.1340,Nodes Expanded,32
+Fast Downward,Level 8,Branching,0.1340,Avg Branching,3.25
+Fast Downward,Level 8,SUCCESS,0.1340,Solution Length,13
+LAMA First,Level 8,Metrics,0.5772,Nodes Expanded,25
+LAMA First,Level 8,Branching,0.5772,Avg Branching,3.16
+LAMA First,Level 8,SUCCESS,0.5772,Solution Length,13
+A* (Manhattan),Level 9,Memory,0.0006,Max Stored Nodes,22
+A* (Manhattan),Level 9,Branching,0.0006,Avg Branching,4.0
+A* (Manhattan),Level 9,Branching,0.0006,Max Branching,6
+A* (Manhattan),Level 9,SUCCESS,0.0006,Nodes Expanded,3
+A* (Manhattan),Level 9,SUCCESS,0.0006,Solution Length,2
+A* (Real Maze),Level 9,Memory,0.0003,Max Stored Nodes,22
+A* (Real Maze),Level 9,Branching,0.0003,Avg Branching,4.0
+A* (Real Maze),Level 9,Branching,0.0003,Max Branching,6
+A* (Real Maze),Level 9,SUCCESS,0.0003,Nodes Expanded,3
+A* (Real Maze),Level 9,SUCCESS,0.0003,Solution Length,2
+A* (New Real Maze),Level 9,Memory,0.0004,Max Stored Nodes,22
+A* (New Real Maze),Level 9,Branching,0.0004,Avg Branching,4.0
+A* (New Real Maze),Level 9,Branching,0.0004,Max Branching,6
+A* (New Real Maze),Level 9,SUCCESS,0.0004,Nodes Expanded,3
+A* (New Real Maze),Level 9,SUCCESS,0.0004,Solution Length,2
+A* (Hungarian),Level 9,Memory,0.0010,Max Stored Nodes,22
+A* (Hungarian),Level 9,Branching,0.0010,Avg Branching,4.0
+A* (Hungarian),Level 9,Branching,0.0010,Max Branching,6
+A* (Hungarian),Level 9,SUCCESS,0.0010,Nodes Expanded,3
+A* (Hungarian),Level 9,SUCCESS,0.0010,Solution Length,2
+A* (Fast Distance),Level 9,Memory,0.0008,Max Stored Nodes,22
+A* (Fast Distance),Level 9,Branching,0.0008,Avg Branching,4.0
+A* (Fast Distance),Level 9,Branching,0.0008,Max Branching,6
+A* (Fast Distance),Level 9,SUCCESS,0.0008,Nodes Expanded,3
+A* (Fast Distance),Level 9,SUCCESS,0.0008,Solution Length,2
+A* (Exact Distance),Level 9,Memory,0.0012,Max Stored Nodes,22
+A* (Exact Distance),Level 9,Branching,0.0012,Avg Branching,4.0
+A* (Exact Distance),Level 9,Branching,0.0012,Max Branching,6
+A* (Exact Distance),Level 9,SUCCESS,0.0012,Nodes Expanded,3
+A* (Exact Distance),Level 9,SUCCESS,0.0012,Solution Length,2
+A* (Satisficing),Level 9,Memory,0.0012,Max Stored Nodes,22
+A* (Satisficing),Level 9,Branching,0.0012,Avg Branching,4.0
+A* (Satisficing),Level 9,Branching,0.0012,Max Branching,6
+A* (Satisficing),Level 9,SUCCESS,0.0012,Nodes Expanded,3
+A* (Satisficing),Level 9,SUCCESS,0.0012,Solution Length,2
+Fast Downward,Level 9,Metrics,0.1375,Nodes Expanded,11
+Fast Downward,Level 9,Branching,0.1375,Avg Branching,3.1818181818181817
+Fast Downward,Level 9,SUCCESS,0.1375,Solution Length,8
+LAMA First,Level 9,Metrics,0.5687,Nodes Expanded,10
+LAMA First,Level 9,Branching,0.5687,Avg Branching,3.2
+LAMA First,Level 9,SUCCESS,0.5687,Solution Length,8
+A* (Manhattan),Level 10,Memory,0.0003,Max Stored Nodes,14
+A* (Manhattan),Level 10,Branching,0.0003,Avg Branching,2.6666666666666665
+A* (Manhattan),Level 10,Branching,0.0003,Max Branching,4
+A* (Manhattan),Level 10,SUCCESS,0.0003,Nodes Expanded,3
+A* (Manhattan),Level 10,SUCCESS,0.0003,Solution Length,2
+A* (Real Maze),Level 10,Memory,0.0003,Max Stored Nodes,14
+A* (Real Maze),Level 10,Branching,0.0003,Avg Branching,2.6666666666666665
+A* (Real Maze),Level 10,Branching,0.0003,Max Branching,4
+A* (Real Maze),Level 10,SUCCESS,0.0003,Nodes Expanded,3
+A* (Real Maze),Level 10,SUCCESS,0.0003,Solution Length,2
+A* (New Real Maze),Level 10,Memory,0.0004,Max Stored Nodes,14
+A* (New Real Maze),Level 10,Branching,0.0004,Avg Branching,2.6666666666666665
+A* (New Real Maze),Level 10,Branching,0.0004,Max Branching,4
+A* (New Real Maze),Level 10,SUCCESS,0.0004,Nodes Expanded,3
+A* (New Real Maze),Level 10,SUCCESS,0.0004,Solution Length,2
+A* (Hungarian),Level 10,Memory,0.0005,Max Stored Nodes,14
+A* (Hungarian),Level 10,Branching,0.0005,Avg Branching,2.6666666666666665
+A* (Hungarian),Level 10,Branching,0.0005,Max Branching,4
+A* (Hungarian),Level 10,SUCCESS,0.0005,Nodes Expanded,3
+A* (Hungarian),Level 10,SUCCESS,0.0005,Solution Length,2
+A* (Fast Distance),Level 10,Memory,0.0003,Max Stored Nodes,14
+A* (Fast Distance),Level 10,Branching,0.0003,Avg Branching,2.6666666666666665
+A* (Fast Distance),Level 10,Branching,0.0003,Max Branching,4
+A* (Fast Distance),Level 10,SUCCESS,0.0003,Nodes Expanded,3
+A* (Fast Distance),Level 10,SUCCESS,0.0003,Solution Length,2
+A* (Exact Distance),Level 10,Memory,0.0004,Max Stored Nodes,14
+A* (Exact Distance),Level 10,Branching,0.0004,Avg Branching,2.6666666666666665
+A* (Exact Distance),Level 10,Branching,0.0004,Max Branching,4
+A* (Exact Distance),Level 10,SUCCESS,0.0004,Nodes Expanded,3
+A* (Exact Distance),Level 10,SUCCESS,0.0004,Solution Length,2
+A* (Satisficing),Level 10,Memory,0.0003,Max Stored Nodes,14
+A* (Satisficing),Level 10,Branching,0.0003,Avg Branching,2.6666666666666665
+A* (Satisficing),Level 10,Branching,0.0003,Max Branching,4
+A* (Satisficing),Level 10,SUCCESS,0.0003,Nodes Expanded,3
+A* (Satisficing),Level 10,SUCCESS,0.0003,Solution Length,2
+Fast Downward,Level 10,Metrics,0.1180,Nodes Expanded,8
+Fast Downward,Level 10,Branching,0.1180,Avg Branching,3.125
+Fast Downward,Level 10,SUCCESS,0.1180,Solution Length,6
+LAMA First,Level 10,Metrics,0.5657,Nodes Expanded,7
+LAMA First,Level 10,Branching,0.5657,Avg Branching,3.142857142857143
+LAMA First,Level 10,SUCCESS,0.5657,Solution Length,6
+A* (Manhattan),Level 11,Memory,0.0008,Max Stored Nodes,26
+A* (Manhattan),Level 11,Branching,0.0008,Avg Branching,3.6
+A* (Manhattan),Level 11,Branching,0.0008,Max Branching,5
+A* (Manhattan),Level 11,SUCCESS,0.0008,Nodes Expanded,5
+A* (Manhattan),Level 11,SUCCESS,0.0008,Solution Length,4
+A* (Real Maze),Level 11,Memory,0.0007,Max Stored Nodes,26
+A* (Real Maze),Level 11,Branching,0.0007,Avg Branching,3.6
+A* (Real Maze),Level 11,Branching,0.0007,Max Branching,5
+A* (Real Maze),Level 11,SUCCESS,0.0007,Nodes Expanded,5
+A* (Real Maze),Level 11,SUCCESS,0.0007,Solution Length,4
+A* (New Real Maze),Level 11,Memory,0.0007,Max Stored Nodes,26
+A* (New Real Maze),Level 11,Branching,0.0007,Avg Branching,3.6
+A* (New Real Maze),Level 11,Branching,0.0007,Max Branching,5
+A* (New Real Maze),Level 11,SUCCESS,0.0007,Nodes Expanded,5
+A* (New Real Maze),Level 11,SUCCESS,0.0007,Solution Length,4
+A* (Hungarian),Level 11,Memory,0.0008,Max Stored Nodes,26
+A* (Hungarian),Level 11,Branching,0.0008,Avg Branching,3.6
+A* (Hungarian),Level 11,Branching,0.0008,Max Branching,5
+A* (Hungarian),Level 11,SUCCESS,0.0008,Nodes Expanded,5
+A* (Hungarian),Level 11,SUCCESS,0.0008,Solution Length,4
+A* (Fast Distance),Level 11,Memory,0.0006,Max Stored Nodes,26
+A* (Fast Distance),Level 11,Branching,0.0006,Avg Branching,3.6
+A* (Fast Distance),Level 11,Branching,0.0006,Max Branching,5
+A* (Fast Distance),Level 11,SUCCESS,0.0006,Nodes Expanded,5
+A* (Fast Distance),Level 11,SUCCESS,0.0006,Solution Length,4
+A* (Exact Distance),Level 11,Memory,0.0006,Max Stored Nodes,26
+A* (Exact Distance),Level 11,Branching,0.0006,Avg Branching,3.6
+A* (Exact Distance),Level 11,Branching,0.0006,Max Branching,5
+A* (Exact Distance),Level 11,SUCCESS,0.0006,Nodes Expanded,5
+A* (Exact Distance),Level 11,SUCCESS,0.0006,Solution Length,4
+A* (Satisficing),Level 11,Memory,0.0006,Max Stored Nodes,26
+A* (Satisficing),Level 11,Branching,0.0006,Avg Branching,3.6
+A* (Satisficing),Level 11,Branching,0.0006,Max Branching,5
+A* (Satisficing),Level 11,SUCCESS,0.0006,Nodes Expanded,5
+A* (Satisficing),Level 11,SUCCESS,0.0006,Solution Length,4
+Fast Downward,Level 11,Metrics,0.1426,Nodes Expanded,46
+Fast Downward,Level 11,Branching,0.1426,Avg Branching,3.4782608695652173
+Fast Downward,Level 11,SUCCESS,0.1426,Solution Length,16
+LAMA First,Level 11,Metrics,0.5673,Nodes Expanded,147
+LAMA First,Level 11,Branching,0.5673,Avg Branching,3.510204081632653
+LAMA First,Level 11,SUCCESS,0.5673,Solution Length,16
+A* (Manhattan),Level 12,Memory,0.0008,Max Stored Nodes,26
+A* (Manhattan),Level 12,Branching,0.0008,Avg Branching,3.6
+A* (Manhattan),Level 12,Branching,0.0008,Max Branching,6
+A* (Manhattan),Level 12,SUCCESS,0.0008,Nodes Expanded,5
+A* (Manhattan),Level 12,SUCCESS,0.0008,Solution Length,3
+A* (Real Maze),Level 12,Memory,0.0008,Max Stored Nodes,26
+A* (Real Maze),Level 12,Branching,0.0008,Avg Branching,3.6
+A* (Real Maze),Level 12,Branching,0.0008,Max Branching,6
+A* (Real Maze),Level 12,SUCCESS,0.0008,Nodes Expanded,5
+A* (Real Maze),Level 12,SUCCESS,0.0008,Solution Length,3
+A* (New Real Maze),Level 12,Memory,0.0011,Max Stored Nodes,26
+A* (New Real Maze),Level 12,Branching,0.0011,Avg Branching,3.6
+A* (New Real Maze),Level 12,Branching,0.0011,Max Branching,6
+A* (New Real Maze),Level 12,SUCCESS,0.0011,Nodes Expanded,5
+A* (New Real Maze),Level 12,SUCCESS,0.0011,Solution Length,3
+A* (Hungarian),Level 12,Memory,0.0011,Max Stored Nodes,26
+A* (Hungarian),Level 12,Branching,0.0011,Avg Branching,3.6
+A* (Hungarian),Level 12,Branching,0.0011,Max Branching,6
+A* (Hungarian),Level 12,SUCCESS,0.0011,Nodes Expanded,5
+A* (Hungarian),Level 12,SUCCESS,0.0011,Solution Length,3
+A* (Fast Distance),Level 12,Memory,0.0008,Max Stored Nodes,26
+A* (Fast Distance),Level 12,Branching,0.0008,Avg Branching,3.6
+A* (Fast Distance),Level 12,Branching,0.0008,Max Branching,6
+A* (Fast Distance),Level 12,SUCCESS,0.0008,Nodes Expanded,5
+A* (Fast Distance),Level 12,SUCCESS,0.0008,Solution Length,3
+A* (Exact Distance),Level 12,Memory,0.0012,Max Stored Nodes,26
+A* (Exact Distance),Level 12,Branching,0.0012,Avg Branching,3.6
+A* (Exact Distance),Level 12,Branching,0.0012,Max Branching,6
+A* (Exact Distance),Level 12,SUCCESS,0.0012,Nodes Expanded,5
+A* (Exact Distance),Level 12,SUCCESS,0.0012,Solution Length,3
+A* (Satisficing),Level 12,Memory,0.0010,Max Stored Nodes,26
+A* (Satisficing),Level 12,Branching,0.0010,Avg Branching,3.6
+A* (Satisficing),Level 12,Branching,0.0010,Max Branching,6
+A* (Satisficing),Level 12,SUCCESS,0.0010,Nodes Expanded,5
+A* (Satisficing),Level 12,SUCCESS,0.0010,Solution Length,3
+Fast Downward,Level 12,Metrics,0.1943,Nodes Expanded,4140
+Fast Downward,Level 12,Branching,0.1943,Avg Branching,3.1246376811594203
+Fast Downward,Level 12,FAILED,0.1943,Solution Length,0
+LAMA First,Level 12,Metrics,0.6233,Nodes Expanded,4140
+LAMA First,Level 12,Branching,0.6233,Avg Branching,3.1246376811594203
+LAMA First,Level 12,FAILED,0.6233,Solution Length,0
+A* (Manhattan),Level 13,Memory,0.0015,Max Stored Nodes,26
+A* (Manhattan),Level 13,Branching,0.0015,Avg Branching,2.3157894736842106
+A* (Manhattan),Level 13,Branching,0.0015,Max Branching,5
+A* (Manhattan),Level 13,FAILED,0.0015,Nodes Expanded,19
+A* (Real Maze),Level 13,Memory,0.0014,Max Stored Nodes,26
+A* (Real Maze),Level 13,Branching,0.0014,Avg Branching,2.3157894736842106
+A* (Real Maze),Level 13,Branching,0.0014,Max Branching,5
+A* (Real Maze),Level 13,FAILED,0.0014,Nodes Expanded,19
+A* (New Real Maze),Level 13,Memory,0.0010,Max Stored Nodes,26
+A* (New Real Maze),Level 13,Branching,0.0010,Avg Branching,2.3157894736842106
+A* (New Real Maze),Level 13,Branching,0.0010,Max Branching,5
+A* (New Real Maze),Level 13,FAILED,0.0010,Nodes Expanded,19
+A* (Hungarian),Level 13,Memory,0.0009,Max Stored Nodes,26
+A* (Hungarian),Level 13,Branching,0.0009,Avg Branching,2.3157894736842106
+A* (Hungarian),Level 13,Branching,0.0009,Max Branching,5
+A* (Hungarian),Level 13,FAILED,0.0009,Nodes Expanded,19
+A* (Fast Distance),Level 13,Memory,0.0007,Max Stored Nodes,26
+A* (Fast Distance),Level 13,Branching,0.0007,Avg Branching,2.3157894736842106
+A* (Fast Distance),Level 13,Branching,0.0007,Max Branching,5
+A* (Fast Distance),Level 13,FAILED,0.0007,Nodes Expanded,19
+A* (Exact Distance),Level 13,Memory,0.0020,Max Stored Nodes,26
+A* (Exact Distance),Level 13,Branching,0.0020,Avg Branching,2.3157894736842106
+A* (Exact Distance),Level 13,Branching,0.0020,Max Branching,5
+A* (Exact Distance),Level 13,FAILED,0.0020,Nodes Expanded,19
+A* (Satisficing),Level 13,Memory,0.0021,Max Stored Nodes,26
+A* (Satisficing),Level 13,Branching,0.0021,Avg Branching,2.3157894736842106
+A* (Satisficing),Level 13,Branching,0.0021,Max Branching,5
+A* (Satisficing),Level 13,FAILED,0.0021,Nodes Expanded,19
+Fast Downward,Level 13,Metrics,0.1446,Nodes Expanded,1610
+Fast Downward,Level 13,Branching,0.1446,Avg Branching,2.5043478260869567
+Fast Downward,Level 13,FAILED,0.1446,Solution Length,0
+LAMA First,Level 13,Metrics,0.6007,Nodes Expanded,1610
+LAMA First,Level 13,Branching,0.6007,Avg Branching,2.5043478260869567
+LAMA First,Level 13,FAILED,0.6007,Solution Length,0
+A* (Manhattan),Level 14,Memory,0.0004,Max Stored Nodes,14
+A* (Manhattan),Level 14,Branching,0.0004,Avg Branching,2.6666666666666665
+A* (Manhattan),Level 14,Branching,0.0004,Max Branching,4
+A* (Manhattan),Level 14,SUCCESS,0.0004,Nodes Expanded,3
+A* (Manhattan),Level 14,SUCCESS,0.0004,Solution Length,2
+A* (Real Maze),Level 14,Memory,0.0003,Max Stored Nodes,14
+A* (Real Maze),Level 14,Branching,0.0003,Avg Branching,2.6666666666666665
+A* (Real Maze),Level 14,Branching,0.0003,Max Branching,4
+A* (Real Maze),Level 14,SUCCESS,0.0003,Nodes Expanded,3
+A* (Real Maze),Level 14,SUCCESS,0.0003,Solution Length,2
+A* (New Real Maze),Level 14,Memory,0.0003,Max Stored Nodes,14
+A* (New Real Maze),Level 14,Branching,0.0003,Avg Branching,2.6666666666666665
+A* (New Real Maze),Level 14,Branching,0.0003,Max Branching,4
+A* (New Real Maze),Level 14,SUCCESS,0.0003,Nodes Expanded,3
+A* (New Real Maze),Level 14,SUCCESS,0.0003,Solution Length,2
+A* (Hungarian),Level 14,Memory,0.0005,Max Stored Nodes,14
+A* (Hungarian),Level 14,Branching,0.0005,Avg Branching,2.6666666666666665
+A* (Hungarian),Level 14,Branching,0.0005,Max Branching,4
+A* (Hungarian),Level 14,SUCCESS,0.0005,Nodes Expanded,3
+A* (Hungarian),Level 14,SUCCESS,0.0005,Solution Length,2
+A* (Fast Distance),Level 14,Memory,0.0003,Max Stored Nodes,14
+A* (Fast Distance),Level 14,Branching,0.0003,Avg Branching,2.6666666666666665
+A* (Fast Distance),Level 14,Branching,0.0003,Max Branching,4
+A* (Fast Distance),Level 14,SUCCESS,0.0003,Nodes Expanded,3
+A* (Fast Distance),Level 14,SUCCESS,0.0003,Solution Length,2
+A* (Exact Distance),Level 14,Memory,0.0003,Max Stored Nodes,14
+A* (Exact Distance),Level 14,Branching,0.0003,Avg Branching,2.6666666666666665
+A* (Exact Distance),Level 14,Branching,0.0003,Max Branching,4
+A* (Exact Distance),Level 14,SUCCESS,0.0003,Nodes Expanded,3
+A* (Exact Distance),Level 14,SUCCESS,0.0003,Solution Length,2
+A* (Satisficing),Level 14,Memory,0.0003,Max Stored Nodes,14
+A* (Satisficing),Level 14,Branching,0.0003,Avg Branching,2.6666666666666665
+A* (Satisficing),Level 14,Branching,0.0003,Max Branching,4
+A* (Satisficing),Level 14,SUCCESS,0.0003,Nodes Expanded,3
+A* (Satisficing),Level 14,SUCCESS,0.0003,Solution Length,2
+Fast Downward,Level 14,Metrics,0.1425,Nodes Expanded,9
+Fast Downward,Level 14,Branching,0.1425,Avg Branching,3.111111111111111
+Fast Downward,Level 14,SUCCESS,0.1425,Solution Length,6
+LAMA First,Level 14,Metrics,0.5538,Nodes Expanded,8
+LAMA First,Level 14,Branching,0.5538,Avg Branching,3.125
+LAMA First,Level 14,SUCCESS,0.5538,Solution Length,6
+A* (Manhattan),Level 15,Memory,0.0009,Max Stored Nodes,29
+A* (Manhattan),Level 15,Branching,0.0009,Avg Branching,3.5
+A* (Manhattan),Level 15,Branching,0.0009,Max Branching,6
+A* (Manhattan),Level 15,SUCCESS,0.0009,Nodes Expanded,8
+A* (Manhattan),Level 15,SUCCESS,0.0009,Solution Length,5
+A* (Real Maze),Level 15,Memory,0.0009,Max Stored Nodes,29
+A* (Real Maze),Level 15,Branching,0.0009,Avg Branching,3.5
+A* (Real Maze),Level 15,Branching,0.0009,Max Branching,6
+A* (Real Maze),Level 15,SUCCESS,0.0009,Nodes Expanded,8
+A* (Real Maze),Level 15,SUCCESS,0.0009,Solution Length,5
+A* (New Real Maze),Level 15,Memory,0.0009,Max Stored Nodes,27
+A* (New Real Maze),Level 15,Branching,0.0009,Avg Branching,3.0
+A* (New Real Maze),Level 15,Branching,0.0009,Max Branching,5
+A* (New Real Maze),Level 15,SUCCESS,0.0009,Nodes Expanded,6
+A* (New Real Maze),Level 15,SUCCESS,0.0009,Solution Length,5
+A* (Hungarian),Level 15,Memory,0.0009,Max Stored Nodes,27
+A* (Hungarian),Level 15,Branching,0.0009,Avg Branching,3.0
+A* (Hungarian),Level 15,Branching,0.0009,Max Branching,5
+A* (Hungarian),Level 15,SUCCESS,0.0009,Nodes Expanded,6
+A* (Hungarian),Level 15,SUCCESS,0.0009,Solution Length,5
+A* (Fast Distance),Level 15,Memory,0.0010,Max Stored Nodes,29
+A* (Fast Distance),Level 15,Branching,0.0010,Avg Branching,3.5
+A* (Fast Distance),Level 15,Branching,0.0010,Max Branching,6
+A* (Fast Distance),Level 15,SUCCESS,0.0010,Nodes Expanded,8
+A* (Fast Distance),Level 15,SUCCESS,0.0010,Solution Length,5
+A* (Exact Distance),Level 15,Memory,0.0008,Max Stored Nodes,27
+A* (Exact Distance),Level 15,Branching,0.0008,Avg Branching,3.0
+A* (Exact Distance),Level 15,Branching,0.0008,Max Branching,5
+A* (Exact Distance),Level 15,SUCCESS,0.0008,Nodes Expanded,6
+A* (Exact Distance),Level 15,SUCCESS,0.0008,Solution Length,5
+A* (Satisficing),Level 15,Memory,0.0008,Max Stored Nodes,27
+A* (Satisficing),Level 15,Branching,0.0008,Avg Branching,3.0
+A* (Satisficing),Level 15,Branching,0.0008,Max Branching,5
+A* (Satisficing),Level 15,SUCCESS,0.0008,Nodes Expanded,6
+A* (Satisficing),Level 15,SUCCESS,0.0008,Solution Length,5
+Fast Downward,Level 15,Metrics,0.1680,Nodes Expanded,261
+Fast Downward,Level 15,Branching,0.1680,Avg Branching,3.3295019157088124
+Fast Downward,Level 15,SUCCESS,0.1680,Solution Length,12
+LAMA First,Level 15,Metrics,0.5762,Nodes Expanded,267
+LAMA First,Level 15,Branching,0.5762,Avg Branching,3.3146067415730336
+LAMA First,Level 15,SUCCESS,0.5762,Solution Length,12
+A* (Manhattan),Level 16,Memory,0.0100,Max Stored Nodes,73
+A* (Manhattan),Level 16,Branching,0.0100,Avg Branching,4.642857142857143
+A* (Manhattan),Level 16,Branching,0.0100,Max Branching,8
+A* (Manhattan),Level 16,FAILED,0.0100,Nodes Expanded,56
+A* (Real Maze),Level 16,Memory,0.0204,Max Stored Nodes,73
+A* (Real Maze),Level 16,Branching,0.0204,Avg Branching,4.642857142857143
+A* (Real Maze),Level 16,Branching,0.0204,Max Branching,8
+A* (Real Maze),Level 16,FAILED,0.0204,Nodes Expanded,56
+A* (New Real Maze),Level 16,Memory,0.0008,Max Stored Nodes,2
+A* (New Real Maze),Level 16,Branching,0.0008,Avg Branching,5.0
+A* (New Real Maze),Level 16,Branching,0.0008,Max Branching,5
+A* (New Real Maze),Level 16,FAILED,0.0008,Nodes Expanded,1
+A* (Hungarian),Level 16,Memory,0.0211,Max Stored Nodes,80
+A* (Hungarian),Level 16,Branching,0.0211,Avg Branching,4.642857142857143
+A* (Hungarian),Level 16,Branching,0.0211,Max Branching,8
+A* (Hungarian),Level 16,FAILED,0.0211,Nodes Expanded,56
+A* (Fast Distance),Level 16,Memory,0.0124,Max Stored Nodes,73
+A* (Fast Distance),Level 16,Branching,0.0124,Avg Branching,4.642857142857143
+A* (Fast Distance),Level 16,Branching,0.0124,Max Branching,8
+A* (Fast Distance),Level 16,FAILED,0.0124,Nodes Expanded,56
+A* (Exact Distance),Level 16,Memory,0.0003,Max Stored Nodes,2
+A* (Exact Distance),Level 16,Branching,0.0003,Avg Branching,5.0
+A* (Exact Distance),Level 16,Branching,0.0003,Max Branching,5
+A* (Exact Distance),Level 16,FAILED,0.0003,Nodes Expanded,1
+A* (Satisficing),Level 16,Memory,0.0003,Max Stored Nodes,2
+A* (Satisficing),Level 16,Branching,0.0003,Avg Branching,5.0
+A* (Satisficing),Level 16,Branching,0.0003,Max Branching,5
+A* (Satisficing),Level 16,FAILED,0.0003,Nodes Expanded,1
+Fast Downward,Level 16,Metrics,0.1557,Nodes Expanded,6023
+Fast Downward,Level 16,Branching,0.1557,Avg Branching,3.256848746471858
+Fast Downward,Level 16,SUCCESS,0.1557,Solution Length,26
+LAMA First,Level 16,Metrics,0.6016,Nodes Expanded,5218
+LAMA First,Level 16,Branching,0.6016,Avg Branching,3.2487543119969335
+LAMA First,Level 16,SUCCESS,0.6016,Solution Length,33
+A* (Manhattan),Level 17,Memory,0.0010,Max Stored Nodes,50
+A* (Manhattan),Level 17,Branching,0.0010,Avg Branching,5.6
+A* (Manhattan),Level 17,Branching,0.0010,Max Branching,8
+A* (Manhattan),Level 17,SUCCESS,0.0010,Nodes Expanded,5
+A* (Manhattan),Level 17,SUCCESS,0.0010,Solution Length,4
+A* (Real Maze),Level 17,Memory,0.0011,Max Stored Nodes,50
+A* (Real Maze),Level 17,Branching,0.0011,Avg Branching,5.6
+A* (Real Maze),Level 17,Branching,0.0011,Max Branching,8
+A* (Real Maze),Level 17,SUCCESS,0.0011,Nodes Expanded,5
+A* (Real Maze),Level 17,SUCCESS,0.0011,Solution Length,4
+A* (New Real Maze),Level 17,Memory,0.0011,Max Stored Nodes,50
+A* (New Real Maze),Level 17,Branching,0.0011,Avg Branching,5.6
+A* (New Real Maze),Level 17,Branching,0.0011,Max Branching,8
+A* (New Real Maze),Level 17,SUCCESS,0.0011,Nodes Expanded,5
+A* (New Real Maze),Level 17,SUCCESS,0.0011,Solution Length,4
+A* (Hungarian),Level 17,Memory,0.0012,Max Stored Nodes,50
+A* (Hungarian),Level 17,Branching,0.0012,Avg Branching,5.6
+A* (Hungarian),Level 17,Branching,0.0012,Max Branching,8
+A* (Hungarian),Level 17,SUCCESS,0.0012,Nodes Expanded,5
+A* (Hungarian),Level 17,SUCCESS,0.0012,Solution Length,4
+A* (Fast Distance),Level 17,Memory,0.0011,Max Stored Nodes,50
+A* (Fast Distance),Level 17,Branching,0.0011,Avg Branching,5.6
+A* (Fast Distance),Level 17,Branching,0.0011,Max Branching,8
+A* (Fast Distance),Level 17,SUCCESS,0.0011,Nodes Expanded,5
+A* (Fast Distance),Level 17,SUCCESS,0.0011,Solution Length,4
+A* (Exact Distance),Level 17,Memory,0.0013,Max Stored Nodes,50
+A* (Exact Distance),Level 17,Branching,0.0013,Avg Branching,5.6
+A* (Exact Distance),Level 17,Branching,0.0013,Max Branching,8
+A* (Exact Distance),Level 17,SUCCESS,0.0013,Nodes Expanded,5
+A* (Exact Distance),Level 17,SUCCESS,0.0013,Solution Length,4
+A* (Satisficing),Level 17,Memory,0.0019,Max Stored Nodes,50
+A* (Satisficing),Level 17,Branching,0.0019,Avg Branching,5.6
+A* (Satisficing),Level 17,Branching,0.0019,Max Branching,8
+A* (Satisficing),Level 17,SUCCESS,0.0019,Nodes Expanded,5
+A* (Satisficing),Level 17,SUCCESS,0.0019,Solution Length,4
+Fast Downward,Level 17,Metrics,0.1541,Nodes Expanded,27
+Fast Downward,Level 17,Branching,0.1541,Avg Branching,3.6666666666666665
+Fast Downward,Level 17,SUCCESS,0.1541,Solution Length,17
+LAMA First,Level 17,Metrics,0.5520,Nodes Expanded,24
+LAMA First,Level 17,Branching,0.5520,Avg Branching,3.5833333333333335
+LAMA First,Level 17,SUCCESS,0.5520,Solution Length,17
+A* (Manhattan),Level 18,Memory,0.0012,Max Stored Nodes,44
+A* (Manhattan),Level 18,Branching,0.0012,Avg Branching,5.6
+A* (Manhattan),Level 18,Branching,0.0012,Max Branching,8
+A* (Manhattan),Level 18,SUCCESS,0.0012,Nodes Expanded,5
+A* (Manhattan),Level 18,SUCCESS,0.0012,Solution Length,4
+A* (Real Maze),Level 18,Memory,0.0013,Max Stored Nodes,44
+A* (Real Maze),Level 18,Branching,0.0013,Avg Branching,5.6
+A* (Real Maze),Level 18,Branching,0.0013,Max Branching,8
+A* (Real Maze),Level 18,SUCCESS,0.0013,Nodes Expanded,5
+A* (Real Maze),Level 18,SUCCESS,0.0013,Solution Length,4
+A* (New Real Maze),Level 18,Memory,0.0012,Max Stored Nodes,44
+A* (New Real Maze),Level 18,Branching,0.0012,Avg Branching,5.6
+A* (New Real Maze),Level 18,Branching,0.0012,Max Branching,8
+A* (New Real Maze),Level 18,SUCCESS,0.0012,Nodes Expanded,5
+A* (New Real Maze),Level 18,SUCCESS,0.0012,Solution Length,4
+A* (Hungarian),Level 18,Memory,0.0012,Max Stored Nodes,44
+A* (Hungarian),Level 18,Branching,0.0012,Avg Branching,5.6
+A* (Hungarian),Level 18,Branching,0.0012,Max Branching,8
+A* (Hungarian),Level 18,SUCCESS,0.0012,Nodes Expanded,5
+A* (Hungarian),Level 18,SUCCESS,0.0012,Solution Length,4
+A* (Fast Distance),Level 18,Memory,0.0009,Max Stored Nodes,44
+A* (Fast Distance),Level 18,Branching,0.0009,Avg Branching,5.6
+A* (Fast Distance),Level 18,Branching,0.0009,Max Branching,8
+A* (Fast Distance),Level 18,SUCCESS,0.0009,Nodes Expanded,5
+A* (Fast Distance),Level 18,SUCCESS,0.0009,Solution Length,4
+A* (Exact Distance),Level 18,Memory,0.0009,Max Stored Nodes,44
+A* (Exact Distance),Level 18,Branching,0.0009,Avg Branching,5.6
+A* (Exact Distance),Level 18,Branching,0.0009,Max Branching,8
+A* (Exact Distance),Level 18,SUCCESS,0.0009,Nodes Expanded,5
+A* (Exact Distance),Level 18,SUCCESS,0.0009,Solution Length,4
+A* (Satisficing),Level 18,Memory,0.0009,Max Stored Nodes,44
+A* (Satisficing),Level 18,Branching,0.0009,Avg Branching,5.6
+A* (Satisficing),Level 18,Branching,0.0009,Max Branching,8
+A* (Satisficing),Level 18,SUCCESS,0.0009,Nodes Expanded,5
+A* (Satisficing),Level 18,SUCCESS,0.0009,Solution Length,4
+Fast Downward,Level 18,Metrics,0.1629,Nodes Expanded,3111
+Fast Downward,Level 18,Branching,0.1629,Avg Branching,3.74799099967856
+Fast Downward,Level 18,SUCCESS,0.1629,Solution Length,14
+LAMA First,Level 18,Metrics,0.5752,Nodes Expanded,2539
+LAMA First,Level 18,Branching,0.5752,Avg Branching,3.78062229224104
+LAMA First,Level 18,SUCCESS,0.5752,Solution Length,52
+A* (Manhattan),Level 19,Memory,0.0043,Max Stored Nodes,155
+A* (Manhattan),Level 19,Branching,0.0043,Avg Branching,9.0
+A* (Manhattan),Level 19,Branching,0.0043,Max Branching,14
+A* (Manhattan),Level 19,SUCCESS,0.0043,Nodes Expanded,10
+A* (Manhattan),Level 19,SUCCESS,0.0043,Solution Length,9
+A* (Real Maze),Level 19,Memory,0.0044,Max Stored Nodes,155
+A* (Real Maze),Level 19,Branching,0.0044,Avg Branching,9.0
+A* (Real Maze),Level 19,Branching,0.0044,Max Branching,14
+A* (Real Maze),Level 19,SUCCESS,0.0044,Nodes Expanded,10
+A* (Real Maze),Level 19,SUCCESS,0.0044,Solution Length,9
+A* (New Real Maze),Level 19,Memory,0.0107,Max Stored Nodes,155
+A* (New Real Maze),Level 19,Branching,0.0107,Avg Branching,9.0
+A* (New Real Maze),Level 19,Branching,0.0107,Max Branching,14
+A* (New Real Maze),Level 19,SUCCESS,0.0107,Nodes Expanded,10
+A* (New Real Maze),Level 19,SUCCESS,0.0107,Solution Length,9
+A* (Hungarian),Level 19,Memory,0.0157,Max Stored Nodes,155
+A* (Hungarian),Level 19,Branching,0.0157,Avg Branching,9.0
+A* (Hungarian),Level 19,Branching,0.0157,Max Branching,14
+A* (Hungarian),Level 19,SUCCESS,0.0157,Nodes Expanded,10
+A* (Hungarian),Level 19,SUCCESS,0.0157,Solution Length,9
+A* (Fast Distance),Level 19,Memory,0.0116,Max Stored Nodes,155
+A* (Fast Distance),Level 19,Branching,0.0116,Avg Branching,9.0
+A* (Fast Distance),Level 19,Branching,0.0116,Max Branching,14
+A* (Fast Distance),Level 19,SUCCESS,0.0116,Nodes Expanded,10
+A* (Fast Distance),Level 19,SUCCESS,0.0116,Solution Length,9
+A* (Exact Distance),Level 19,Memory,0.0123,Max Stored Nodes,155
+A* (Exact Distance),Level 19,Branching,0.0123,Avg Branching,9.0
+A* (Exact Distance),Level 19,Branching,0.0123,Max Branching,14
+A* (Exact Distance),Level 19,SUCCESS,0.0123,Nodes Expanded,10
+A* (Exact Distance),Level 19,SUCCESS,0.0123,Solution Length,9
+A* (Satisficing),Level 19,Memory,0.0089,Max Stored Nodes,155
+A* (Satisficing),Level 19,Branching,0.0089,Avg Branching,9.0
+A* (Satisficing),Level 19,Branching,0.0089,Max Branching,14
+A* (Satisficing),Level 19,SUCCESS,0.0089,Nodes Expanded,10
+A* (Satisficing),Level 19,SUCCESS,0.0089,Solution Length,9
+Fast Downward,Level 19,Metrics,0.1153,Nodes Expanded,136
+Fast Downward,Level 19,Branching,0.1153,Avg Branching,3.5
+Fast Downward,Level 19,SUCCESS,0.1153,Solution Length,45
+LAMA First,Level 19,Metrics,0.5902,Nodes Expanded,446
+LAMA First,Level 19,Branching,0.5902,Avg Branching,3.57847533632287
+LAMA First,Level 19,SUCCESS,0.5902,Solution Length,39
+A* (Manhattan),Level 20,Memory,0.0040,Max Stored Nodes,144
+A* (Manhattan),Level 20,Branching,0.0040,Avg Branching,9.666666666666666
+A* (Manhattan),Level 20,Branching,0.0040,Max Branching,12
+A* (Manhattan),Level 20,SUCCESS,0.0040,Nodes Expanded,9
+A* (Manhattan),Level 20,SUCCESS,0.0040,Solution Length,8
+A* (Real Maze),Level 20,Memory,0.0036,Max Stored Nodes,144
+A* (Real Maze),Level 20,Branching,0.0036,Avg Branching,9.666666666666666
+A* (Real Maze),Level 20,Branching,0.0036,Max Branching,12
+A* (Real Maze),Level 20,SUCCESS,0.0036,Nodes Expanded,9
+A* (Real Maze),Level 20,SUCCESS,0.0036,Solution Length,8
+A* (New Real Maze),Level 20,Memory,0.0104,Max Stored Nodes,144
+A* (New Real Maze),Level 20,Branching,0.0104,Avg Branching,9.666666666666666
+A* (New Real Maze),Level 20,Branching,0.0104,Max Branching,12
+A* (New Real Maze),Level 20,SUCCESS,0.0104,Nodes Expanded,9
+A* (New Real Maze),Level 20,SUCCESS,0.0104,Solution Length,8
+A* (Hungarian),Level 20,Memory,0.0124,Max Stored Nodes,144
+A* (Hungarian),Level 20,Branching,0.0124,Avg Branching,9.666666666666666
+A* (Hungarian),Level 20,Branching,0.0124,Max Branching,12
+A* (Hungarian),Level 20,SUCCESS,0.0124,Nodes Expanded,9
+A* (Hungarian),Level 20,SUCCESS,0.0124,Solution Length,8
+A* (Fast Distance),Level 20,Memory,0.0078,Max Stored Nodes,144
+A* (Fast Distance),Level 20,Branching,0.0078,Avg Branching,9.666666666666666
+A* (Fast Distance),Level 20,Branching,0.0078,Max Branching,12
+A* (Fast Distance),Level 20,SUCCESS,0.0078,Nodes Expanded,9
+A* (Fast Distance),Level 20,SUCCESS,0.0078,Solution Length,8
+A* (Exact Distance),Level 20,Memory,0.0072,Max Stored Nodes,144
+A* (Exact Distance),Level 20,Branching,0.0072,Avg Branching,9.666666666666666
+A* (Exact Distance),Level 20,Branching,0.0072,Max Branching,12
+A* (Exact Distance),Level 20,SUCCESS,0.0072,Nodes Expanded,9
+A* (Exact Distance),Level 20,SUCCESS,0.0072,Solution Length,8
+A* (Satisficing),Level 20,Memory,0.0062,Max Stored Nodes,144
+A* (Satisficing),Level 20,Branching,0.0062,Avg Branching,9.666666666666666
+A* (Satisficing),Level 20,Branching,0.0062,Max Branching,12
+A* (Satisficing),Level 20,SUCCESS,0.0062,Nodes Expanded,9
+A* (Satisficing),Level 20,SUCCESS,0.0062,Solution Length,8
+Fast Downward,Level 20,Metrics,0.1161,Nodes Expanded,76
+Fast Downward,Level 20,Branching,0.1161,Avg Branching,3.789473684210526
+Fast Downward,Level 20,SUCCESS,0.1161,Solution Length,26
+LAMA First,Level 20,Metrics,0.6106,Nodes Expanded,2020
+LAMA First,Level 20,Branching,0.6106,Avg Branching,3.6693069306930695
+LAMA First,Level 20,SUCCESS,0.6106,Solution Length,29
+A* (Manhattan),Level 21,Memory,0.0827,Max Stored Nodes,528
+A* (Manhattan),Level 21,Branching,0.0827,Avg Branching,6.804395604395604
+A* (Manhattan),Level 21,Branching,0.0827,Max Branching,11
+A* (Manhattan),Level 21,FAILED,0.0827,Nodes Expanded,455
+A* (Real Maze),Level 21,Memory,0.0777,Max Stored Nodes,528
+A* (Real Maze),Level 21,Branching,0.0777,Avg Branching,6.804395604395604
+A* (Real Maze),Level 21,Branching,0.0777,Max Branching,11
+A* (Real Maze),Level 21,FAILED,0.0777,Nodes Expanded,455
+A* (New Real Maze),Level 21,Memory,0.0003,Max Stored Nodes,2
+A* (New Real Maze),Level 21,Branching,0.0003,Avg Branching,6.0
+A* (New Real Maze),Level 21,Branching,0.0003,Max Branching,6
+A* (New Real Maze),Level 21,FAILED,0.0003,Nodes Expanded,1
+A* (Hungarian),Level 21,Memory,0.0798,Max Stored Nodes,546
+A* (Hungarian),Level 21,Branching,0.0798,Avg Branching,6.804395604395604
+A* (Hungarian),Level 21,Branching,0.0798,Max Branching,11
+A* (Hungarian),Level 21,FAILED,0.0798,Nodes Expanded,455
+A* (Fast Distance),Level 21,Memory,0.0776,Max Stored Nodes,528
+A* (Fast Distance),Level 21,Branching,0.0776,Avg Branching,6.804395604395604
+A* (Fast Distance),Level 21,Branching,0.0776,Max Branching,11
+A* (Fast Distance),Level 21,FAILED,0.0776,Nodes Expanded,455
+A* (Exact Distance),Level 21,Memory,0.0003,Max Stored Nodes,2
+A* (Exact Distance),Level 21,Branching,0.0003,Avg Branching,6.0
+A* (Exact Distance),Level 21,Branching,0.0003,Max Branching,6
+A* (Exact Distance),Level 21,FAILED,0.0003,Nodes Expanded,1
+A* (Satisficing),Level 21,Memory,0.0003,Max Stored Nodes,2
+A* (Satisficing),Level 21,Branching,0.0003,Avg Branching,6.0
+A* (Satisficing),Level 21,Branching,0.0003,Max Branching,6
+A* (Satisficing),Level 21,FAILED,0.0003,Nodes Expanded,1
+Fast Downward,Level 21,Metrics,0.1178,Nodes Expanded,993
+Fast Downward,Level 21,Branching,0.1178,Avg Branching,3.599194360523666
+Fast Downward,Level 21,SUCCESS,0.1178,Solution Length,41
+LAMA First,Level 21,Metrics,0.5796,Nodes Expanded,2085
+LAMA First,Level 21,Branching,0.5796,Avg Branching,3.627817745803357
+LAMA First,Level 21,SUCCESS,0.5796,Solution Length,41

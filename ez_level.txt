@@ -1,7 +1,7 @@
 #######
-#@ . $#
+#@  $.#
 #######
-Title: Level 0 (Sanity Check)
+Title: Level 0 
 
 
 #######
@@ -77,7 +77,132 @@ Title: Level 7
 
 
 ###########
-#@ $ $ $  #
+# @       #
+#  $ $ $  #
 #  . . .  #
 ###########
-Title: Level 8
+Title: Level 8 
+
+
+##########
+#        #
+#  $  $  #
+#  .  .  #
+#   @    #
+##########
+Title: Level 9 (Wide Room)
+
+
+######
+#    #
+# $. #
+# @  #
+# $. #
+#    #
+######
+Title: Level 10 (Corridor)
+
+
+########
+#      #
+# .  $ #
+#   @  #
+# $  . #
+#      #
+########
+Title: Level 11 (Rotation)
+
+#######
+#     #
+# .$. #
+#  $  #
+#  @  #
+#  .  #
+#######
+Title: Level 12 (The Cross)
+
+
+########
+#      #
+# .##$ #
+# @ $  #
+# .##  #
+########
+Title: Level 13 (Around the Bend)
+
+
+#######
+#     #
+# $ $ #
+# .@. #
+#     #
+#######
+Title: Level 14 (Tight Squeeze)
+
+
+######
+#    #
+# $$ #
+# .  #
+# @  #
+# .  #
+######
+Title: Level 15 (Blockade)
+
+
+########
+#      #
+# .  $ #
+# .$@$ #
+#      #
+########
+Title: Level 16 (Double Trouble)
+
+###########
+#    @    #
+#         #
+#  $   $  #
+#         #
+#  .   .  #
+###########
+Title: Level 17 (The Open Field)
+
+
+##########
+#        #
+#  $  $  #
+#   @    #
+#  .  .  #
+#        #
+##########
+Title: Level 18 (Central Park)
+
+
+##########
+# .  .   #
+#   $    #
+# $ @  $ #
+#   $    #
+# .    . #
+##########
+Title: Level 19 (Diamond)
+
+
+############
+#          #
+# . $  $ . #
+#    @     #
+# . $  $ . #
+#          #
+############
+Title: Level 20 (Four Corners)
+
+
+#########
+#       #
+#   .   #
+#  $$$  #
+# @ .   #
+#       #
+#########
+Title: Level 21 (The Wall)

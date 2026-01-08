@@ -9,13 +9,12 @@ class PDDLGenerator:
         self.goals = level.goals
 
     def generate_problem_pddl(self):
-
         pddl = f"(define (problem {self.name})\n"
         pddl += "  (:domain sokoban)\n"
 
         objects = "  (:objects\n    "
         objects += "up down left right - direction\n    "
-
+        
         locations = []
         for y in range(self.height):
             for x in range(self.width):
@@ -29,41 +28,39 @@ class PDDLGenerator:
         pddl += "  (:init\n"
         
         directions = {
-            'up': (0, -1),
-            'down': (0, 1),
-            'left': (-1, 0),
-            'right': (1, 0)
+            'up': (0, -1), 'down': (0, 1),
+            'left': (-1, 0), 'right': (1, 0)
         }
         
         for y in range(self.height):
             for x in range(self.width):
-                if (x, y) in self.walls:
-                    continue
+                if (x, y) in self.walls: continue
                 
-                curr_str = f"pos_{x}_{y}"
-                
+                curr = f"pos_{x}_{y}"
                 for d_name, (dx, dy) in directions.items():
                     nx, ny = x + dx, y + dy
-                    if (0 <= nx < self.width and 0 <= ny < self.height) and (nx, ny) not in self.walls:
-                        next_str = f"pos_{nx}_{ny}"
-                        pddl += f"    (move-dir {curr_str} {next_str} {d_name})\n"
+                    if 0 <= nx < self.width and 0 <= ny < self.height:
+                        if (nx, ny) not in self.walls:
+                            neighbor = f"pos_{nx}_{ny}"
+                            pddl += f"    (adjacent {curr} {neighbor} {d_name})\n"
 
-        px, py = self.initial_state.player
+        boxes, player_pos = self.initial_state
+        px, py = player_pos
+        
         pddl += f"    (at-player pos_{px}_{py})\n"
         
-        box_positions = set(self.initial_state.boxes)
+        box_positions = set(boxes)
+
         for (bx, by) in box_positions:
             pddl += f"    (at-box pos_{bx}_{by})\n"
 
         for y in range(self.height):
             for x in range(self.width):
-                if (x, y) in self.walls:
-                    continue
-                if (x, y) == (px, py):
-                    continue
-                if (x, y) in box_positions:
-                    continue
-                pddl += f"    (clear pos_{x}_{y})\n"
+                if (x, y) in self.walls: continue
+                
+                # If there is no box here, it is clear
+                if (x, y) not in box_positions:
+                    pddl += f"    (clear pos_{x}_{y})\n"
                 
         pddl += "  )\n"
 

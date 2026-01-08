@@ -27,7 +27,12 @@ def get_distances(level):
 
 def heuristic(state, level):
     goals_map = get_distances(level)
-    boxes = list(state.boxes)
+    
+    # --- FIX START: Unpack tuple instead of using .boxes ---
+    boxes_set, player_pos = state
+    boxes = list(boxes_set)
+    # --- FIX END ---
+
     goals = list(level.goals)
     
     edges = []
@@ -55,13 +60,13 @@ def heuristic(state, level):
         return float('inf')
 
     penalty = 0
-    box_set = state.boxes
     
     for x, y in boxes:
         if (x, y) not in level.goals:
             neighbors = [(x+1, y), (x-1, y), (x, y+1), (x, y-1)]
             for nx, ny in neighbors:
-                if (nx, ny) in box_set and (nx, ny) not in level.goals:
+                # Use boxes_set here for O(1) lookup
+                if (nx, ny) in boxes_set and (nx, ny) not in level.goals:
                     penalty += 1 
 
     return total_cost + penalty
