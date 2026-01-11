@@ -1,7 +1,6 @@
 import collections
 from collections import namedtuple, deque
 
-# Restored order: 'boxes' first, then 'player' to match PDDL_Generator expectations
 SokobanState = namedtuple('SokobanState', ['boxes', 'player'])
 
 class SokobanLevel:
@@ -38,14 +37,11 @@ class SokobanLevel:
         initial_raw_player = start_player
         initial_boxes = frozenset(start_boxes)
         
-        # Canonicalize initial state
         reachable = self.get_reachable_simple(initial_raw_player, initial_boxes)
         canonical_player = min(reachable)
-        
-        # Order MUST be (boxes, player) to satisfy PDDL_Generator unpacking
+
         self.initial_state = SokobanState(initial_boxes, canonical_player)
         
-        # Pre-calculate static deadlocks (Reverse BFS)
         self.deadlock_squares = self.find_dead_squares()
 
     def get_reachable_simple(self, player_pos, boxes):
@@ -53,7 +49,6 @@ class SokobanLevel:
         queue = deque([player_pos])
         reachable = {player_pos}
         
-        # Local variable access is faster in loops
         walls = self.walls
         
         while queue:
@@ -81,7 +76,7 @@ class SokobanLevel:
             bx, by = queue.popleft()
             
             for dx, dy in moves:
-                # "Pull" box from (bx, by) to (px, py)
+
                 px, py = bx - dx, by - dy
                 ppx, ppy = px - dx, py - dy
                 
@@ -91,7 +86,6 @@ class SokobanLevel:
                 if not (0 <= px < width and 0 <= py < height): continue
                 if not (0 <= ppx < width and 0 <= ppy < height): continue
                 
-                # If neither the previous box spot nor the player spot is a wall
                 if prev_pos not in walls and (ppx, ppy) not in walls:
                     if prev_pos not in safe_squares:
                         safe_squares.add(prev_pos)
@@ -167,7 +161,7 @@ class SokobanLevel:
     @staticmethod
     def get_successors(state, level):
         successors = []
-        # UNPACKING FIXED: boxes first, then player
+
         boxes, player = state 
         
         current_reachable = level.get_reachable_simple(player, boxes)
@@ -205,7 +199,6 @@ class SokobanLevel:
                 new_reachable = level.get_reachable_simple(box, new_boxes)
                 canonical_player = min(new_reachable)
                 
-                # CREATION FIXED: boxes first, then player
                 successors.append((move_name, SokobanState(new_boxes, canonical_player)))
 
         return successors

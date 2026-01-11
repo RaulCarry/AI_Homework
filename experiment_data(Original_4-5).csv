@@ -1,0 +1,43 @@
+Algorithm,Level,Status,Time (s),Metric Type,Metric Value
+A* (Manhattan),Level 4,Memory,151.8981,Max Stored Nodes,1821624
+A* (Manhattan),Level 4,Branching,151.8981,Avg Branching,4.704003
+A* (Manhattan),Level 4,FAILED,151.8981,Nodes Expanded,1000000
+A* (Real Maze),Level 4,Memory,97.3984,Max Stored Nodes,1312429
+A* (Real Maze),Level 4,Branching,97.3984,Avg Branching,3.94207
+A* (Real Maze),Level 4,FAILED,97.3984,Nodes Expanded,1000000
+A* (Hungarian),Level 4,Memory,181.1567,Max Stored Nodes,1309288
+A* (Hungarian),Level 4,Branching,181.1567,Avg Branching,3.945095
+A* (Hungarian),Level 4,FAILED,181.1567,Nodes Expanded,1000000
+A* (Fast Distance),Level 4,Memory,97.5602,Max Stored Nodes,1312429
+A* (Fast Distance),Level 4,Branching,97.5602,Avg Branching,3.94207
+A* (Fast Distance),Level 4,FAILED,97.5602,Nodes Expanded,1000000
+A* (Exact Distance),Level 4,Memory,200.3485,Max Stored Nodes,1309352
+A* (Exact Distance),Level 4,Branching,200.3485,Avg Branching,3.944972
+A* (Exact Distance),Level 4,FAILED,200.3485,Nodes Expanded,1000000
+A* (Satisficing),Level 4,Memory,291.9860,Max Stored Nodes,2748302
+A* (Satisficing),Level 4,Branching,291.9860,Avg Branching,5.344511
+A* (Satisficing),Level 4,FAILED,291.9860,Nodes Expanded,1000000
+Fast Downward,Level 4,Metrics,499.3014,Nodes Expanded,0
+Fast Downward,Level 4,FAILED,499.3014,Solution Length,0
+LAMA First,Level 4,TIMEOUT,500.0000,Plan Length,0
+A* (Manhattan),Level 5,Memory,173.1126,Max Stored Nodes,1536104
+A* (Manhattan),Level 5,Branching,173.1126,Avg Branching,4.797753
+A* (Manhattan),Level 5,FAILED,173.1126,Nodes Expanded,1000000
+A* (Real Maze),Level 5,Memory,163.0326,Max Stored Nodes,1338299
+A* (Real Maze),Level 5,Branching,163.0326,Avg Branching,5.231151
+A* (Real Maze),Level 5,FAILED,163.0326,Nodes Expanded,1000000
+A* (Hungarian),Level 5,Memory,201.5445,Max Stored Nodes,1106849
+A* (Hungarian),Level 5,Branching,201.5445,Avg Branching,5.375825
+A* (Hungarian),Level 5,FAILED,201.5445,Nodes Expanded,1000000
+A* (Fast Distance),Level 5,Memory,159.2305,Max Stored Nodes,1338299
+A* (Fast Distance),Level 5,Branching,159.2305,Avg Branching,5.231151
+A* (Fast Distance),Level 5,FAILED,159.2305,Nodes Expanded,1000000
+A* (Exact Distance),Level 5,Memory,205.0073,Max Stored Nodes,1106849
+A* (Exact Distance),Level 5,Branching,205.0073,Avg Branching,5.375825
+A* (Exact Distance),Level 5,FAILED,205.0073,Nodes Expanded,1000000
+A* (Satisficing),Level 5,Memory,217.6213,Max Stored Nodes,1282534
+A* (Satisficing),Level 5,Branching,217.6213,Avg Branching,5.229475
+A* (Satisficing),Level 5,FAILED,217.6213,Nodes Expanded,1000000
+Fast Downward,Level 5,Metrics,499.1557,Nodes Expanded,0
+Fast Downward,Level 5,FAILED,499.1557,Solution Length,0
+LAMA First,Level 5,TIMEOUT,500.0000,Plan Length,0
