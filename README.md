@@ -18,7 +18,7 @@ The project implements an entire pipeline of AI experiments, including:
 * 'fast-downward/': Contains the Fast Downward planner.
 * 'sokoban_levels.txt': The original sokoban levels
 * 'ez_levels.txt': The AI generated easier levels
-
+* 'print_average.py : For the numerical data to write the report
 
 # Python Libraries
 The project requires Python 3.
